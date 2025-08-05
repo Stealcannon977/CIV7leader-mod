@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_MEMENTO_GILGAMESH_MACE_UNLOCK_TITLE">
+			<Text>Unlock at Oliver Cromwell level 2</Text>
+		</Row>
+		<Row Tag="LOC_MEMENTO_GILGAMESH_LOBSTER_HELM_UNLOCK_TITLE">
+			<Text>Unlock at Oliver Cromwell level 5</Text>
+		</Row>
+		<Row Tag="LOC_MEMENTO_GILGAMESH_KILLING_NO_MURDER_UNLOCK_TITLE">
+			<Text>Unlock at Oliver Cromwell level 9</Text>
+		</Row>
+		<Row Tag="LOC_MEMENTO_GILGAMESH_MACE_NAME">
+			<Text>Speaker's Mace</Text>
+		</Row>
+		<Row Tag="LOC_MEMENTO_GILGAMESH_MACE_DESCRIPTION">
+			<Text>Order!</Text>
+		</Row>
+		<Row Tag="LOC_MEMENTO_GILGAMESH_MACE_FUNCTIONAL_DESCRIPTION">
+			<Text>Gain a Civic Boost whenever you spend an Attribute Point in the Diplomacy Tree.</Text>
+		</Row>
+		<Row Tag="LOC_MEMENTO_GILGAMESH_LOBSTER_HELM_NAME">
+			<Text>Lobster Helm</Text>
+		</Row>
+		<Row Tag="LOC_MEMENTO_GILGAMESH_LOBSTER_HELM_DESCRIPTION">
+			<Text>A souldier must not doe wickedly.</Text>
+		</Row>
+		<Row Tag="LOC_MEMENTO_GILGAMESH_LOBSTER_HELM_FUNCTIONAL_DESCRIPTION">
+			<Text>+2 [icon:YIELD_CULTURE] Culture for every Cavalry Unit.</Text>
+		</Row>
+		<Row Tag="LOC_MEMENTO_GILGAMESH_KILLING_NO_MURDER_NAME">
+			<Text>Killing No Murder</Text>
+		</Row>
+		<Row Tag="LOC_MEMENTO_GILGAMESH_KILLING_NO_MURDER_DESCRIPTION">
+			<Text>Is it honourable to kill a tyrant?</Text>
+		</Row>
+		<Row Tag="LOC_MEMENTO_GILGAMESH_KILLING_NO_MURDER_FUNCTIONAL_DESCRIPTION">
+			<Text>Unrest does not prevent Purchasing, but Garrisoned Commanders reduce [icon:YIELD_HAPPINESS] Happiness penalties by 100% less.</Text>
+		</Row>
+	</EnglishText>
+</Database>

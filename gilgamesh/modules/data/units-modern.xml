@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+
+    <Types>
+		
+		<Row Type="UNIT_ARQUEBUSIER" Kind="KIND_UNIT"/>
+		
+	</Types>
+	<Units>
+
+		<Row UnitType="UNIT_ARQUEBUSIER" Name="LOC_UNIT_PIKEMAN_NAME" Description="LOC_UNIT_PIKEMAN_DESCRIPTION" Tier="3" Maintenance="0" BaseSightRange="2" BaseMoves="2" UnitMovementClass="UNIT_MOVEMENT_CLASS_FOOT" Domain="DOMAIN_LAND" CoreClass="CORE_CLASS_MILITARY" FormationClass="FORMATION_CLASS_LAND_COMBAT" ZoneOfControl="true" CanTrain="false" CanPurchase="false" TraitType="TRAIT_LEADER_GILGAMESH_ABILITY"/>
+
+
+	
+    </Units>
+	<Unit_Stats>
+		
+		<Row UnitType="UNIT_ARQUEBUSIER" Combat="55"/>
+		
+	</Unit_Stats>
+	<Unit_Costs>
+				
+	</Unit_Costs>
+	<Unit_RequiredConstructibles>
+		
+		
+	</Unit_RequiredConstructibles>
+	<UnitUpgrades>
+		
+		
+	</UnitUpgrades>
+	<UnitReplaces>
+		
+	</UnitReplaces>
+	<Unit_TransitionRetains>
+		
+	</Unit_TransitionRetains>
+	<AiUnitEfficiencyBonuses>
+		
+	</AiUnitEfficiencyBonuses>
+	<Tags>
+		
+		
+	</Tags>
+	<TypeTags>
+		
+		<Row Type="UNIT_ARQUEBUSIER" Tag="UNIT_CLASS_COMBAT"/>
+		<Row Type="UNIT_ARQUEBUSIER" Tag="UNIT_CLASS_MELEE"/>
+		<Row Type="UNIT_ARQUEBUSIER" Tag="UNIT_CLASS_INFANTRY"/>
+		<Row Type="UNIT_ARQUEBUSIER" Tag="UNIT_CLASS_ELITE_INFANTRY"/>
+		
+		
+	</TypeTags>
+	<UnitClass_Abilities>
+		
+	</UnitClass_Abilities>
+	<UnitAbilities>
+	
+		
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+
+		
+	</UnitAbilityModifiers>
+	<ChargedUnitAbilities>
+
+	</ChargedUnitAbilities>
+	<!-- Advisory Attributes -->
+	<Unit_Advisories>
+		
+
+	</Unit_Advisories>
+
+</Database>

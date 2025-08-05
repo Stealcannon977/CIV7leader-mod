@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_CARD_AT_MOD_LEGEND_GILGAMESH_1_NAME">
+			<Text>Oliver Cromwell Modern Legend Militaristic</Text>
+		</Row>
+		<Row Tag="LOC_CARD_AT_MOD_LEGEND_GILGAMESH_1_DESCRIPTION">
+			<Text>For this Age, gain +15% Gold [icon:YIELD_GOLD] at the cost of -10% Happiness [icon:YIELD_HAPPINESS]</Text>
+		</Row>
+
+		<Row Tag="LOC_CARD_AT_MOD_LEGEND_GILGAMESH_2_NAME">
+			<Text>Oliver Cromwell Modern Legend Cultural</Text>
+		</Row>
+		<Row Tag="LOC_CARD_AT_MOD_LEGEND_GILGAMESH_2_DESCRIPTION">
+			<Text>For this Age, gain +15% Food [icon:YIELD_FOOD] at the cost of -10% Happiness [icon:YIELD_HAPPINESS]</Text>
+		</Row>
+	</EnglishText>
+</Database>

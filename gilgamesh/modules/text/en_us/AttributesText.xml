@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- ==============================================================	-->
+		<!--	Legend Unlocks												-->
+		<!-- ==============================================================	-->
+		<!-- Cultural Attribute -->
+		<Row Tag="LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_GILGAMESH_L2_DESCRIPTION">
+			<Text>Legend Unlock. +1 [icon:YIELD_CULTURE]Culture on Quarters.</Text>
+		</Row>
+		<!-- Diplomatic Attribute -->
+
+		<!-- Economic Attribute -->
+
+		<!-- Expansionist Attribute -->
+
+		<!-- Militaristic Attribute -->
+
+		<!-- Scientific Attribute -->
+		<Row Tag="LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_GILGAMESH_L1_DESCRIPTION">
+			<Text>Legend Unlock. -100% Yields from Pillaging, but +1 [icon:YIELD_PRODUCTION]Production on Quarters adjacent to Rivers.</Text>
+		</Row>
+	</EnglishText>
+</Database>

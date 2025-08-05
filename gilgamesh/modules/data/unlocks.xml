@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+	
+	</Kinds>
+	<Types>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_GREAT_BRITAIN" Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_MATTS_SCOTLAND" Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_LEGEND_LEVEL_4_GILGAMESH" Kind="KIND_UNLOCK"/>
+		<InsertOrIgnore Type="UNLOCK_LEGEND_LEVEL_8_GILGAMESH" Kind="KIND_UNLOCK"/>
+	
+	</Types>
+	<Unlocks>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GREAT_BRITAIN"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_MATTS_SCOTLAND"/>
+		<InsertOrIgnore UnlockType="UNLOCK_LEGEND_LEVEL_4_GILGAMESH"/>
+		<InsertOrIgnore UnlockType="UNLOCK_LEGEND_LEVEL_8_GILGAMESH"/>
+
+	</Unlocks>
+	<UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GREAT_BRITAIN" Name="LOC_CIVILIZATION_GREAT_BRITAIN_NAME" Description="LOC_UNLOCK_MODERN_CIV_DESCRIPTION" Icon="ICON_CIVILIZATION_GREAT_BRITAIN" UnlockRewardType="CIVILIZATION_GREAT_BRITAIN" UnlockRewardKind="KIND_CIVILIZATION"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_MATTS_SCOTLAND" Name="LOC_CIVILIZATION_MATTS_SCOTLAND_NAME" Description="LOC_UNLOCK_EXPLORATION_CIV_DESCRIPTION" Icon="CIVILIZATION_MATTS_SCOTLAND" UnlockRewardType="CIVILIZATION_MATTS_SCOTLAND" UnlockRewardKind="KIND_CIVILIZATION"/>
+
+	</UnlockRewards>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_LEADER_IS_GILGAMESH" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+
+		<Row RequirementSetId="REQSET_LEGEND_LEVEL_4_GILGAMESH" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="REQSET_LEGEND_LEVEL_8_GILGAMESH" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<Requirements>
+		<Row RequirementId="REQ_LEADER_IS_GILGAMESH" RequirementType="REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES"/>
+
+		<Row RequirementId="REQ_LEGEND_LEVEL_4_GILGAMESH" RequirementType="REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES"/>
+		<Row RequirementId="REQ_LEGEND_LEVEL_8_GILGAMESH" RequirementType="REQUIREMENT_PLAYER_LEADER_TYPE_MATCHES"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_LEADER_IS_GILGAMESH" Name="LeaderType" Value="LEADER_GILGAMESH"/>
+
+		<Row RequirementId="REQ_LEGEND_LEVEL_4_GILGAMESH" Name="LeaderType" Value="LEADER_GILGAMESH"/>
+		<Row RequirementId="REQ_LEGEND_LEVEL_8_GILGAMESH" Name="LeaderType" Value="LEADER_GILGAMESH"/>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_LEADER_IS_GILGAMESH" RequirementId="REQ_LEADER_IS_GILGAMESH"/>
+
+		<Row RequirementSetId="REQSET_LEGEND_LEVEL_4_GILGAMESH" RequirementId="REQ_LEGEND_LEVEL_4_GILGAMESH"/>
+		<Row RequirementSetId="REQSET_LEGEND_LEVEL_8_GILGAMESH" RequirementId="REQ_LEGEND_LEVEL_8_GILGAMESH"/>
+	</RequirementSetRequirements>
+	<UnlockRequirements>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_NORMAN" RequirementSetId="REQSET_LEADER_IS_GILGAMESH" Description="LOC_UNLOCK_PLAY_AS_GILGAMESH_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_GILGAMESH_NORMAN_TOOLTIP"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_MATTS_SCOTLAND" RequirementSetId="REQSET_LEADER_IS_GILGAMESH" Description="LOC_UNLOCK_PLAY_AS_GILGAMESH_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_GILGAMESH_MATTS_SCOTLAND_TOOLTIP"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GREAT_BRITAIN" RequirementSetId="REQSET_LEADER_IS_GILGAMESH" Description="LOC_UNLOCK_PLAY_AS_GILGAMESH_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_GILGAMESH_BRITAIN_TOOLTIP"/>
+		
+	</UnlockRequirements>
+	<UnlockConfigurationValues>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GREAT_BRITAIN" ConfigurationValue="CIVILIZATION_GREAT_BRITAIN"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_MATTS_SCOTLAND" ConfigurationValue="CIVILIZATION_MATTS_SCOTLAND"/>
+
+	</UnlockConfigurationValues>
+</Database>
