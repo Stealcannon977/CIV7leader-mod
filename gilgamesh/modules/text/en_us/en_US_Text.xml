@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+
+        <Row Tag="LOC_LEADER_GILGAMESH_NAME">
+			<Text>Gilgamesh</Text>
+		</Row>
+        <Row Tag="LOC_LEADER_GILGAMESH_DESCRIPTION">
+			<Text>-1 Happiness and Gold per Population in Cities founded by you. +100% Happiness maintenance for Specialists. +0.5 Culture and Production for every 1 excess Happiness in Cities founded by you.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_GILGAMESH_ABILITY_NAME">
+			<Text>Epic of Gilgamesh</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_GILGAMESH_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI][B]-1 [icon:YIELD_HAPPINESS] Happiness[/B] and [B][icon:YIELD_GOLD] Gold[/B] per Population in Cities founded by you.[LI][B]+100% [icon:YIELD_HAPPINESS] Happiness[/B] maintenance for [B]Specialists[/B].[LI][B]+0.5 [icon:YIELD_CULTURE] Culture[/B] and [B][icon:YIELD_PRODUCTION] Production[/B] for every [B]1[/B] excess [icon:YIELD_HAPPINESS] [B]Happiness[/B] in [B]Cities[/B] founded by you.[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_DIPLOMACY_AGENDA_JERICHO_NAME">
+			<Text>Uruk</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_GILGAMESH_NORMAN_TOOLTIP">
+			<Text>[B]Gilgamesh[/B] was a legendary [B]Mesopotamian[/B] King.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_GILGAMESH_DESCRIPTION">
+			<Text>Play as [B]Gilgamesh[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_GILGAMESH_BRITAIN_TOOLTIP">
+			<Text>[B]Gilgamesh[/B] was a legendary [B]Ancient[/B] King.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_GILGAMESH_MEXICO_TOOLTIP">
+			<Text>[B]Gilgamesh[/B] was a legendary [B]Ancient[/B] ruler, like many [B]Mexican[/B] civilizations.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_GILGAMESH_FRANCE_TOOLTIP">
+			<Text>[B]Gilgamesh[/B] was a legendary [B]Ancient[/B] ruler with great cultural impact.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_GILGAMESH_ROME_TOOLTIP">
+			<Text>[B]Gilgamesh[/B] was a [B]legendary warrior-king[/B], inspiring later [B]Roman[/B] ideals.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_GILGAMESH_GREECE_TOOLTIP">
+			<Text>[B]Gilgamesh[/B] was a legendary [B]Ancient[/B] hero, inspiring [B]Greek[/B] epics.</Text>
+		</Row>
+		<InsertOrIgnore Tag="LOC_CIVILIZATION_MATTS_IRELAND_NAME">
+			<Text>Ireland</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CIVILIZATION_MATTS_SCOTLAND_NAME">
+			<Text>Scotland</Text>
+		</InsertOrIgnore>
+    </EnglishText>
+</Database>

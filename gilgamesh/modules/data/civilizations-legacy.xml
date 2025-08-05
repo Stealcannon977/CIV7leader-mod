@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<LegacyLeaderCivPriorities>
+		<Row Leader="LEADER_GILGAMESH" CivilizationType="CIVILIZATION_ROME"/>
+		<Row Leader="LEADER_GILGAMESH" CivilizationType="CIVILIZATION_GREECE"/>
+		<Row Leader="LEADER_GILGAMESH" CivilizationType="CIVILIZATION_NORMAN"/>
+		<Row Leader="LEADER_GILGAMESH" CivilizationType="CIVILIZATION_SPAIN"/>
+		<Row Leader="LEADER_GILGAMESH" CivilizationType="CIVILIZATION_GREAT_BRITAIN"/>
+		<Row Leader="LEADER_GILGAMESH" CivilizationType="CIVILIZATION_MEXICO"/>
+	</LegacyLeaderCivPriorities>
+</Database>

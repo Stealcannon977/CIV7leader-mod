@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+	</Kinds>
+	<Types>
+		<Row Type="LEADER_GILGAMESH" Kind="KIND_LEADER"/>
+		<!-- Base Leader Traits-->
+		<Row Type="TRAIT_LEADER_GILGAMESH_ABILITY" Kind="KIND_TRAIT"/>
+
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_GILGAMESH" Name="LOC_LEADER_GILGAMESH_NAME" IsMajorLeader="true" AITargetCityPercentage="75" InheritFrom="LEADER_DEFAULT" />
+	</Leaders>
+	<CityEvents>
+	</CityEvents>
+	<SavingTypes>
+	</SavingTypes>
+	<SettlementPreferences>
+	</SettlementPreferences>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_GILGAMESH" TraitType="TRAIT_LEADER_GILGAMESH_ABILITY"/>
+		<Row LeaderType="LEADER_GILGAMESH" TraitType="TRAIT_LEADER_ATTRIBUTE_CULTURAL"/>
+		<Row LeaderType="LEADER_GILGAMESH" TraitType="TRAIT_LEADER_ATTRIBUTE_MILITARISTIC"/>
+		<Row LeaderType="LEADER_GILGAMESH" TraitType="TRAIT_AQ_CULTURE_VICTORY"/>
+		<Row LeaderType="LEADER_GILGAMESH" TraitType="TRAIT_EX_MILITARY_VICTORY"/>
+		<Row LeaderType="LEADER_GILGAMESH" TraitType="TRAIT_MO_MILITARY_VICTORY"/>
+	</LeaderTraits>
+	
+	<Traits>
+		<!--Base Leader Traits-->
+		<Row TraitType="TRAIT_LEADER_GILGAMESH_ABILITY" InternalOnly="true" Name="LOC_TRAIT_LEADER_GILGAMESH_ABILITY_NAME" Description="LOC_TRAIT_LEADER_GILGAMESH_ABILITY_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+			<Row TraitType="TRAIT_LEADER_GILGAMESH_ABILITY" ModifierId="GILGAMESH_MOD_HAPPINESS_PRODUCTION"/>
+			<Row TraitType="TRAIT_LEADER_GILGAMESH_ABILITY" ModifierId="GILGAMESH_MOD_HAPPINESS_CULTURE"/>
+			<Row TraitType="TRAIT_LEADER_GILGAMESH_ABILITY" ModifierId="GILGAMESH_MOD_POP_GOLD"/>
+			<Row TraitType="TRAIT_LEADER_GILGAMESH_ABILITY" ModifierId="GILGAMESH_MOD_SPECIALIST_HAPPINESS"/>
+			<Row TraitType="TRAIT_LEADER_GILGAMESH_ABILITY" ModifierId="GILGAMESH_MOD_POP_HAPPINESS"/>
+			<Row TraitType="TRAIT_LEADER_GILGAMESH_ABILITY" ModifierId="GILGAMESH_MOD_AGENDA_JERICHO_1"/>
+	</TraitModifiers>
+
+	<!--Start Bias Scoring. Leaders tend to be 20 for historic and 10 for gameplay where civ are 15 and 5. These counts each instance within there starting region and multiplied by the score and divided by proximity to the center.-->
+	<StartBiasBiomes>
+	</StartBiasBiomes>
+	<StartBiasTerrains>
+		<Row LeaderType="LEADER_GILGAMESH" TerrainType="TERRAIN_NAVIGABLE_RIVER" Score="200"/>
+	</StartBiasTerrains>
+	<StartBiasFeatureClasses>
+	</StartBiasFeatureClasses>
+	<StartBiasRivers>
+	</StartBiasRivers>
+	<StartBiasAdjacentToCoasts>
+		<Row LeaderType="LEADER_GILGAMESH" Score="50"/>
+	</StartBiasAdjacentToCoasts>
+	<StartBiasNaturalWonders>
+	</StartBiasNaturalWonders>
+	<TypeQuotes>
+		<Row Type="LEADER_GILGAMESH" Quote="LOC_MAIN_CHAR_SELECT_LEADER_GILGAMESH_ANY"/>
+	</TypeQuotes>
+
+
+</Database>

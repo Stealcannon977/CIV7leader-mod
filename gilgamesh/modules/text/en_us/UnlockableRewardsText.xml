@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_STRATEGYCARD_GILGAMESH_EXPLORATION_1_NAME">
+			<Text>Exploration Scientific Legacy Card</Text>
+		</Row>
+		<Row Tag="LOC_STRATEGYCARD_GILGAMESH_EXPLORATION_1_DESCRIPTION">
+			<Text>As Oliver Cromwell, access a new Exploration Legacy Card:[n]
+				+15% Science, -10% Culture</Text>
+		</Row>
+		<Row Tag="LOC_STRATEGYCARD_GILGAMESH_EXPLORATION_2_NAME">
+			<Text>Exploration Cultural Legacy Card</Text>
+		</Row>
+		<Row Tag="LOC_STRATEGYCARD_GILGAMESH_EXPLORATION_2_DESCRIPTION">
+			<Text>As Oliver Cromwell, access a new Exploration Legacy Card:[n]
+				+15% Culture, -10% Science</Text>
+		</Row>
+		<Row Tag="LOC_STRATEGYCARD_GILGAMESH_MODERN_1_NAME">
+			<Text>Modern Scientific Legacy Card</Text>
+		</Row>
+		<Row Tag="LOC_STRATEGYCARD_GILGAMESH_MODERN_1_DESCRIPTION">
+			<Text>As Oliver Cromwell, access a new Exploration Legacy Card:[n]
+				+15% Science, -10% Culture</Text>
+		</Row>
+		<Row Tag="LOC_STRATEGYCARD_GILGAMESH_MODERN_2_NAME">
+			<Text>Modern Cultural Legacy Card</Text>
+		</Row>
+		<Row Tag="LOC_STRATEGYCARD_GILGAMESH_MODERN_2_DESCRIPTION">
+			<Text>As Oliver Cromwell, access a new Exploration Legacy Card:[n]
+				+15% Culture, -10% Science</Text>
+		</Row>
+		<Row Tag="LOC_ATTRIBUTENODE_GILGAMESH_L1_NAME">
+			<Text>Cultural Attribute Node</Text>
+		</Row>
+		<Row Tag="LOC_ATTRIBUTENODE_GILGAMESH_L1_DESCRIPTION">
+			<Text>+1 [icon:YIELD_CULTURE]Culture on Quarters.</Text>
+		</Row>
+		<Row Tag="LOC_ATTRIBUTENODE_GILGAMESH_L2_NAME">
+			<Text>Militaristic Attribute Node</Text>
+		</Row>
+		<Row Tag="LOC_ATTRIBUTENODE_GILGAMESH_L2_DESCRIPTION">
+			<Text>-100% Yields from Pillaging, but +1 [icon:YIELD_PRODUCTION]Production on Quarters adjacent to Rivers.</Text>
+		</Row>
+	</EnglishText>
+</Database>

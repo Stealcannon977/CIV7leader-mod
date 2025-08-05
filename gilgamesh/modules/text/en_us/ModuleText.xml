@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_MODULE_GILGAMESH_NAME">
+			<Text>Leader: Gilgamesh</Text>
+		</Row>
+		<Row Tag="LOC_MODULE_GILGAMESH_DESCRIPTION">
+			<Text>Contains a new playable leader: Gilgamesh.</Text>
+		</Row>
+		<Row Tag="LOC_MODULE_GILGAMESH_AUTHOR">
+			<Text>Matt</Text>
+		</Row>
+	</EnglishText>
+</Database>

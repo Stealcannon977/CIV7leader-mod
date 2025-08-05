@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<UnlockRequirements>
+		<InsertOrIgnore UnlockType="UNLOCK_LEGEND_LEVEL_8_GILGAMESH" RequirementSetId="REQSET_LEGEND_LEVEL_8_GILGAMESH" Description=""/>
+	</UnlockRequirements>
+	<UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_LEGEND_LEVEL_8_GILGAMESH" Name="LOC_CARD_AT_MOD_LEGEND_GILGAMESH_1_NAME" Description="LOC_CARD_AT_MOD_LEGEND_GILGAMESH_1_DESCRIPTION" Icon="LEADER_GILGAMESH"/>
+		<InsertOrIgnore UnlockType="UNLOCK_LEGEND_LEVEL_8_GILGAMESH" Name="LOC_CARD_AT_MOD_LEGEND_GILGAMESH_2_NAME" Description="LOC_CARD_AT_MOD_LEGEND_GILGAMESH_2_DESCRIPTION" Icon="LEADER_GILGAMESH"/>
+	</UnlockRewards>
+</Database>
