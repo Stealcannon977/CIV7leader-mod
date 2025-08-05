@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_CROMWELL_10000A_STORYTITLE">
+            <Text>Humble Advice</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10000A_COMPLETION">
+            <Text>A cult of personality reveres Cromwell's leadership. A petition from the public suggests he name himself King.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10000B_NAME">
+            <Text>They are right. Providence has handed me the power of a King.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10000B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10000C_NAME">
+            <Text>No. Providence has shown that the days of Kings are over.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10000C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10001A_STORYTITLE">
+            <Text>Lieutenant-General of the Horse</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10001A_COMPLETION">
+            <Text>Cromwell's origins as a cavalry commander have inspired the people to revere the horse as a holy creature, too noble to be put to work.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10001B_NAME">
+            <Text>Touching, but absurd. Put the beasts back to work.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10001B_DESCRIPTION">
+            <Text>{1_reward} on Horses.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10001C_NAME">
+            <Text>Perhaps the horse is indeed a symbol of divine providence.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10001C_DESCRIPTION">
+            <Text>{1_reward} on Horses.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10002A_STORYTITLE">
+            <Text>The Matter of Prayer</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10002A_COMPLETION">
+            <Text>There are those who claim that the gods are beyond our comprehension. But if Cromwell, a mere man, can be a vehicle for divine providence, surely anyone can form a connection with the beyond.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10002B_NAME">
+            <Text>The gods speak to us all, individually.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10002B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10002C_NAME">
+            <Text>Only the priests, chosen by the gods, may interpret divine auspices.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10002C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10002D_NAME">
+            <Text>Let each polity decide for itself.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10002D_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10003A_STORYTITLE">
+            <Text>The Bury Conference</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10003A_COMPLETION">
+            <Text>Soldiers are reluctant to fight in far fields beyond their homes. The grandees of the army have assembled to solve this problem.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10003B_NAME">
+            <Text>Reorganise them into larger, more diverse regiments.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10003B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10003C_NAME">
+            <Text>Problem? It is right that they defend what they hold dear.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10003C_DESCRIPTION">
+            <Text>{1_reward} on Military Buildings.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1210A_STORYTITLE">
+            <Text>The Ironsides</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1210A_COMPLETION">
+            <Text>Still loyal to him from his days as an officer, Cromwell's old troop of Ironsides offer their service.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1210B_STORYTITLE">
+            <Text>The Ironsides</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1210B_NAME">
+            <Text>Appoint these loyal servicemen to high-ranking political offices.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1210B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1210B_COMPLETION">
+            <Text>Political rivals have written treatises, complaining of nepotism and espousing meritocratic government.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1210B_IMPERATIVE">
+            <Text>Build an Amphitheatre</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1210C_STORYTITLE">
+            <Text>The Ironsides</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1210C_NAME">
+            <Text>They will train the next generation of soldiers.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1210C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1210C_COMPLETION">
+            <Text>A New Model Army has been created in the Ironsides' image.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1210C_IMPERATIVE">
+            <Text>Build a Barracks</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1210D_NAME">
+            <Text>Welcome them to the ranks of your armies.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1210D_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1211A_STORYTITLE">
+            <Text>A Petition</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1211A_COMPLETION">
+            <Text>The meritocratic treatise has gained traction. A public assembly has gathered at the Palace.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1211B_STORYTITLE">
+            <Text>A Petition</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1211B_NAME">
+            <Text>In time, they will learn that service is the highest form of merit.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1211B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1211B_COMPLETION">
+            <Text>Dissenters continue to express their doubts, but Cromwell's rule appears resolute in the face of challengers.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1211B_IMPERATIVE">
+            <Text>Have at least two Army Commanders</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1211C_NAME">
+            <Text>This treatise does have merit. Appoint its authors to new roles in government.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1211C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1212A_STORYTITLE">
+            <Text>Factionalism</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1212A_COMPLETION">
+            <Text>One of Cromwell's regiments has adopted a radical set of political beliefs, and murmur that he should step down as ruler.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1212B_STORYTITLE">
+            <Text>Factionalism</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1212B_NAME">
+            <Text>The ringleader must be... Dealt with.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1212B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1212B_COMPLETION">
+            <Text>The soldiers mourn the passing of their leader. Without a steady hand to guide them, their political ambitions falter and fade.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1212B_IMPERATIVE">
+            <Text>An Army Commander must die.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1212C_NAME">
+            <Text>Perhaps we should hold elections.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1212C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10004A_STORYTITLE">
+            <Text>Debates in the Ranks</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10004A_COMPLETION">
+            <Text>Military encampments have become centres of political activity. Soldiers debate politics by the fire, and regiments adopt ideological identities.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10004B_NAME">
+            <Text>Politics is a stepping stone towards desertion and mutiny.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10004B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10004C_NAME">
+            <Text>Raise a budding politician from the ranks. It'll inspire the troops.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10004C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10004D_NAME">
+            <Text>Let them imagine the country they wish to fight for.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10004D_DESCRIPTION">
+            <Text>{1_reward} on Military and Production Buildings.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10005A_STORYTITLE">
+            <Text>Solemn League and Covenant</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10005A_COMPLETION">
+            <Text>We have an opportunity to bring our neighbours to our side. Much of the soldiery, however, fears foreign influence in our affairs.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10005B_NAME">
+            <Text>Foreign nations can be of great service to our cause.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10005B_DESCRIPTION">
+            <Text>Increase Relationship with a nearby Independent Power.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10005C_NAME">
+            <Text>It is unwise to upset the people we ask to die for our cause.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10005C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10006A_STORYTITLE">
+            <Text>An Ordinance for Abolishing of Festivals</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10006A_COMPLETION">
+            <Text>Parliament has passed a law banning celebrations. They say the people have grown lazy. The people, meanwhile, mock the grey suits, grey voices, and grey attitudes of this puritan government.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10006B_NAME">
+            <Text>Parliament is right. End the festivities!</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10006B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10006C_NAME">
+            <Text>The people are right. Dissolve this parliament!</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10006C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10007A_STORYTITLE">
+            <Text>Pamphlet Wars</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10007A_COMPLETION">
+            <Text>The booming of industry has led to factories being weapons of political warfare. They mass produce ideological pamphlets and radicalise the people.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10007B_NAME">
+            <Text>Let them spread their ideas.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10007B_DESCRIPTION">
+            <Text>{1_reward} but {2_reward} on Production Buildings.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10007C_NAME">
+            <Text>Pass laws against such pamphlets that criticise the state.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10007C_DESCRIPTION">
+            <Text>{1_reward} but {2_reward} on Production Buildings.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1213A_STORYTITLE">
+            <Text>The Self-Denying Ordinance</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1213A_COMPLETION">
+            <Text>A prominent politician has come forth with a proposal. They seek to bar anyone holding an active military role from Parliament.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1213B_NAME">
+            <Text>Who is more dedicated to the nation than our officers? They will stay.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1213B_DESCRIPTION">
+            <Text>Story continues.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1213C_NAME">
+            <Text>They are right. Officers should focus on military duties.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1213C_DESCRIPTION">
+            <Text>Story continues.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1214A_STORYTITLE">
+            <Text>Agitators in the Army</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1214A_COMPLETION">
+            <Text>The military has become a hotbed of radicalism at all levels. The soldiers' elected representatives have presented an egalitarian manifesto.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1214B_STORYTITLE">
+            <Text>Agitators in the Army</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1214B_NAME">
+            <Text>Require every soldier to sign a declaration of loyalty.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1214B_DESCRIPTION">
+            <Text>{1_reward} and adopt the Revolutionary Authoritarianism Government.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1214B_COMPLETION">
+            <Text>The soldiers clamoured to refuse to sign the declaration. In the confusion, they failed to pass their manifesto into law.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1214B_IMPERATIVE">
+            <Text>Adopt the Levies Social Policy.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1214C_NAME">
+            <Text>The agitators have a point. Adopt their manifesto.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1214C_DESCRIPTION">
+            <Text>{1_reward} and adopt the Revolutionary Republic Government.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1215A_STORYTITLE">
+            <Text>The Fifth Monarchists</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1215A_COMPLETION">
+            <Text>Providence has shown the divine right of Kings to be no more. Many now believe this is a sign that the end times are upon us, and the Kingdom of Heaven is nigh.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1215B_STORYTITLE">
+            <Text>The Fifth Monarchists</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1215B_NAME">
+            <Text>They are right, and I am its herald.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1215B_DESCRIPTION">
+            <Text>{1_reward} in all Settlements.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1215B_COMPLETION">
+            <Text>But let's hope the end times aren't too soon...</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1215B_IMPERATIVE">
+            <Text>Have 6 Points in the Toshakhana Legacy Path.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1216A_STORYTITLE">
+            <Text>The Diggers and Levellers</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1216A_COMPLETION">
+            <Text>Rural folk have started claiming the farms for themselves: forming small communes where all share in the fruits of the land equally.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1216B_STORYTITLE">
+            <Text>The Diggers and Levellers</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1216B_NAME">
+            <Text>Inform the gentry. It's their land, and we will help reclaim it.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1216B_DESCRIPTION">
+            <Text>{1_reward} and adopt the Revolutionary Authoritarianism Government.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1216B_COMPLETION">
+            <Text>Gangs of brutes called 'clubmen' now roam the countryside, defending the property rights of the aristocracy.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1216B_IMPERATIVE">
+            <Text>Build two Dungeons.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1216C_NAME">
+            <Text>Now there's a grand idea.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1216C_DESCRIPTION">
+            <Text>{1_reward} and adopt the Revolutionary Republic Government.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1217A_STORYTITLE">
+            <Text>Pride's Purge</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1217A_COMPLETION">
+            <Text>Cromwell's generals approach with a petition. They are concerned that, in their absence, the beliefs of the radical 'Diggers' and 'Levellers' are becoming popular in Parliament.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1217B_STORYTITLE">
+            <Text>Pride's Purge</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1217B_NAME">
+            <Text>Expel the radicals. We will promise a land of opportunity, far from here.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1217B_DESCRIPTION">
+            <Text>{1_reward} in Settlements in Distant Lands.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1217B_COMPLETION">
+            <Text>Dissatisfied radicals seek new lives across the sea. The more radical segments of the army are assigned to fight abroad, at arms reach from the homelands.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1217B_IMPERATIVE">
+            <Text>Have 6 Points in the Non Sufficit Orbis Legacy Path.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10008A_STORYTITLE">
+            <Text>The Secret Treaty</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10008A_COMPLETION">
+            <Text>A {1_OWNER_EXPLORATION_CIVILIZATION_ADJ} pretender to the abolished Kingship has made a secret deal with the {2_OPPONENT_CIVILIZATION_ADJ} to have themselves installed as King once more.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10008B_NAME">
+            <Text>The {1_OWNER_EXPLORATION_CIVILIZATION_ADJ} Yoke shall never return. To war!</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10008B_DESCRIPTION">
+            <Text>{1_reward} but start a War.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10008C_NAME">
+            <Text>Organise a mob. The pretender will be caught and hanged.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10008C_DESCRIPTION">
+            <Text>{1_reward} but {2_reward} on Happiness Buildings.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10009A_STORYTITLE">
+            <Text>A White Dogge Called Boye</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10009A_COMPLETION">
+            <Text>A popular new opera tells the story of a prominent general who fought against Cromwell in the Civil War. Much of it centres on a poodle who seems to have magic powers.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10009B_NAME">
+            <Text>Ban it. We will not aggrandise our enemies.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10009B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10009C_NAME">
+            <Text>That dog was a devil and the world should know!</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10009C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10010A_STORYTITLE">
+            <Text>Come Out, You Cuckold</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10010A_COMPLETION">
+            <Text>A band of revolutionaries hoping to restore the monarchy have taken to the streets. They have adopted a flag insulting Cromwell's honour.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10010B_NAME">
+            <Text>Have the symbols burnt, along with those who held them.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10010B_DESCRIPTION">
+            <Text>{1_reward} on Food Buildings.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10010C_NAME">
+            <Text>All will see this for the juvenile antic that it is.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10010C_DESCRIPTION">
+            <Text>{1_reward} on Military Buildings.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10011A_STORYTITLE">
+            <Text>Lunacy Rampant</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10011A_COMPLETION">
+            <Text>A play has been written that claims Cromwell was raised by a conjurer. An actor mimicks him with a whining voice and ridiculous postures.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10011B_NAME">
+            <Text>Ban it!</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10011B_DESCRIPTION">
+            <Text>{1_reward} but {2_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10011C_NAME">
+            <Text>Hire this playwrite for more noble works.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10011C_DESCRIPTION">
+            <Text>{1_reward} but {2_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10012A_STORYTITLE">
+            <Text>With Spades and Hoes and Ploughs</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10012A_COMPLETION">
+            <Text>The police maintain a far smaller presence in the countrysides. Without the law to hold them to account, many have been evading taxes and claiming their villages are 'sovereign'.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10012B_NAME">
+            <Text>Expand the police force into the countryside.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10012B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10012C_NAME">
+            <Text>They won't last long.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10012C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10013A_STORYTITLE">
+            <Text>The Siege of Oxford</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10013A_COMPLETION">
+            <Text>A revolution broke out in the intellectual heartland of our nation. Thankfully, after three long sieges, Oxford has been recaptured. What role will it now play?</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10013B_NAME">
+            <Text>It will be renewed as a centre of science.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10013B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10013C_NAME">
+            <Text>Its skills are needed in Government.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10013C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10014A_STORYTITLE">
+            <Text>Treasures from the Days of the King</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10014A_COMPLETION">
+            <Text>There is a growing fascination with the relics of the old {1_OWNER_EXPLORATION_CIVILIZATION_ADJ} Kings. Many lament that we no longer produce works of such grandeur, and whisper of the death of our nation's culture.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10014B_NAME">
+            <Text>Exhibit them, but alongside warnings against such decadence.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10014B_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10014C_NAME">
+            <Text>These wonders were wrought through tyranny. Destroy them.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_10014C_DESCRIPTION">
+            <Text>{1_reward}.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1218A_STORYTITLE">
+            <Text>The Good Old Cause</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1218A_COMPLETION">
+            <Text>The question of Cromwell's succession is being raised. Divine Providence placed him on a throne of his own making. But who in the nation he has built could be worthy of this office when he is gone?</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1218B_STORYTITLE">
+            <Text>The Good Old Cause</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1218B_NAME">
+            <Text>The inheritor of my talents will be the inheritor of my office. I choose my son.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1218B_DESCRIPTION">
+            <Text>{1_reward}</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1218B_COMPLETION">
+            <Text>Cromwell's rule has been cemented with an iron fist. His dynasty will reign for generations, with none to stand in its way.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1218B_IMPERATIVE">
+            <Text>Research the Absolutism Civic on the Fascism path.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1218C_NAME">
+            <Text>The people shall decide.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1218C_DESCRIPTION">
+            <Text>+1 [icon:YIELD_CULTURE]Culture on Specialists, but -1 [icon:YIELD_PRODUCTION]Production in Towns.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1218D_NAME">
+            <Text>The people themselves shall rule!</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1218D_DESCRIPTION">
+            <Text>+2 [icon:YIELD_FOOD]Food on Specialists, but -1 [icon:YIELD_HAPPINESS]Happiness in Towns.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1219A_STORYTITLE">
+            <Text>The Green Ribbon Club</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1219A_COMPLETION">
+            <Text>At pubs and working men's clubs across the country, the people trade tales of the idealism of their forefathers, lost since the days of the Civil War.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1219B_STORYTITLE">
+            <Text>The Green Ribbon Club</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1219B_NAME">
+            <Text>Whatever they dream of, what they need is strong government.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1219B_DESCRIPTION">
+            <Text>{1_reward}</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1219B_COMPLETION">
+            <Text>Through youth clubs, a pervasive police force, and rigid hierarchy at all levels of society, the people have come to respect order.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1219B_IMPERATIVE">
+            <Text>Research the Absolutism Civic on the Fascism path.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1219C_NAME">
+            <Text>Perhaps the nation should be a forum of ideas once more. Call an election!</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1219C_DESCRIPTION">
+            <Text>+1 [icon:YIELD_CULTURE]Culture on Specialists, but -1 [icon:YIELD_PRODUCTION]Production in Towns.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1219D_NAME">
+            <Text>I will give them the world they dream of.</Text>
+        </Row>
+        <Row Tag="LOC_CROMWELL_LEADER_CHAIN_1219D_DESCRIPTION">
+            <Text>+2 [icon:YIELD_FOOD]Food on Specialists, but -1 [icon:YIELD_HAPPINESS]Happiness in Towns.</Text>
+        </Row>
+    </EnglishText>
+</Database>

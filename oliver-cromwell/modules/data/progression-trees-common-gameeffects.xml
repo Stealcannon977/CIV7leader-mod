@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- ==============================================================	-->
+	<!--	Legend Unlocks												-->
+	<!-- ==============================================================	-->
+	<!-- ==================================================	-->
+	<!--	Cultural Attribute								-->
+	<!-- ==================================================	-->
+	<Modifier id="MOD_ATTRIBUTE_CULTURAL_LEGEND_CROMWELL_L2"  collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+		<SubjectRequirements type="REQUIREMENTSET_TEST_ALL">
+			<Requirement type="REQUIREMENT_PLOT_IS_QUARTER"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_MOD_ATTRIBUTE_CULTURAL_LEGEND_CROMWELL_L2_DESCRIPTION</String>
+	</Modifier>
+	<!-- ==================================================	-->
+	<!--	Diplomatic Attribute							-->
+	<!-- ==================================================	-->
+
+	<!-- ==================================================	-->
+	<!--	Economic Attribute								-->
+	<!-- ==================================================	-->
+
+	<!-- ==================================================	-->
+	<!--	Expansionist Attribute							-->
+	<!-- ==================================================	-->
+
+	<!-- ==================================================	-->
+	<!--	Militaristic Attribute							-->
+	<!-- ==================================================	-->
+	<Modifier id="MOD_ATTRIBUTE_MILITARISTIC_LEGEND_CROMWELL_L1" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_PLAYER_UNITS_PILLAGE_BUILDING_MODIFIER">
+		<Argument name="Percent">-100</Argument>
+		<String context="Description">LOC_MOD_ATTRIBUTE_MILITARISTIC_LEGEND_CROMWELL_L1_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="MOD_ATTRIBUTE_MILITARISTIC_LEGEND_CROMWELL_L1_02" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_PLAYER_UNITS_PILLAGE_IMPROVEMENT_MODIFIER">
+		<Argument name="Percent">-100</Argument>
+		<Argument name="Tooltip">LOC_TREE_ATTRIBUTE_MILITARISTIC</Argument>
+	</Modifier>
+	<Modifier id="MOD_ATTRIBUTE_MILITARISTIC_LEGEND_CROMWELL_L1_03" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+		<SubjectRequirements type="REQUIREMENTSET_TEST_ALL">
+			<Requirement type="REQUIREMENT_PLOT_ADJACENT_TO_RIVER">
+			</Requirement>
+			<Requirement type="REQUIREMENT_PLOT_IS_QUARTER"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Tooltip">LOC_TREE_ATTRIBUTE_MILITARISTIC</Argument>
+	</Modifier>
+	<!-- ==================================================	-->
+	<!--	Scientific Attribute							-->
+	<!-- ==================================================	-->
+</GameEffects>

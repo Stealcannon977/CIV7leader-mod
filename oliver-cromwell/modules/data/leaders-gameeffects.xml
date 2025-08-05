@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	
+	<Modifier id="CROMWELL_MOD_HAPPINESS_PRODUCTION" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_SURPLUS_HAPPINESS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+			<Requirement type="REQUIREMENT_CITY_IS_ORIGINAL_OWNER"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_PRODUCTION</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Divisor">2</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_LEADER_CROMWELL_ABILITY_NAME</Argument>
+	</Modifier>
+	
+	<Modifier id="CROMWELL_MOD_HAPPINESS_CULTURE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_SURPLUS_HAPPINESS">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+			<Requirement type="REQUIREMENT_CITY_IS_ORIGINAL_OWNER"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Divisor">2</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_LEADER_CROMWELL_ABILITY_NAME</Argument>
+	</Modifier>
+	
+	<Modifier id="CROMWELL_MOD_POP_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_POPULATION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+			<Requirement type="REQUIREMENT_CITY_IS_ORIGINAL_OWNER"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">-1</Argument>
+		<Argument name="Divisor">1</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_LEADER_CROMWELL_ABILITY_NAME</Argument>
+	</Modifier>
+	
+	<Modifier id="CROMWELL_MOD_POP_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_POPULATION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+			<Requirement type="REQUIREMENT_CITY_IS_ORIGINAL_OWNER"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">-1</Argument>
+		<Argument name="Divisor">1</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_LEADER_CROMWELL_ABILITY_NAME</Argument>
+	</Modifier>
+	
+	<Modifier id="CROMWELL_MOD_SPECIALIST_HAPPINESS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_MAINTENANCE_EFFICIENCY">
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Percent">-100</Argument>
+		<Argument name="Tooltip">LOC_TRAIT_LEADER_CROMWELL_ABILITY_NAME</Argument>
+	</Modifier>
+
+
+	<Modifier id="CROMWELL_MOD_AGENDA_JERICHO_1" collection="COLLECTION_OWNER" effect="EFFECT_DIPLOMACY_AGENDA_ON_DISPERSE_IP">
+		<String context="Name">LOC_DIPLOMACY_AGENDA_JERICHO_NAME</String>
+		<Argument name="ModName">LOC_DIPLOMACY_AGENDA_JERICHO_NAME</Argument>
+		<Argument name="Tooltip">LOC_DIPLOMACY_AGENDA_WITHOUT_SORROW_DESC</Argument>
+		<Argument name="WeightType">DIPLOMACY_AGENDA_COMPARE_YIELD_TYPE</Argument>
+		<Argument name="FirstMeetDelay">20</Argument>
+		<Argument name="UpdateFreq">10</Argument>
+		<Argument name="AwardTo1">DIPLOMACY_AGENDA_AWARD_HIGHEST</Argument>
+		<Argument name="AwardAmtType1">DIPLOMACY_AGENDA_AMT_MEDIUM</Argument>
+		<Argument name="Arg1">YIELD_HAPPINESS</Argument>
+		<Argument name="AwardTo2">DIPLOMACY_AGENDA_AWARD_LOWEST</Argument>
+		<Argument name="AwardAmtType2">DIPLOMACY_AGENDA_NEG_AMT_MEDIUM</Argument>
+		<Argument name="NotifyMessage">LOC_NOTIFICATION_DIPLOMATIC_AGENDA_DEFAULT_MESSAGE</Argument>
+		<Argument name="NotifySummary">LOC_NOTIFICATION_DIPLOMATIC_AGENDA_DEFAULT_SUMMARY</Argument>
+	</Modifier>
+	
+</GameEffects>

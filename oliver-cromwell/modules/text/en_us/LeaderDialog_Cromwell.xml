@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- Ada Lovelace Main Menu Char Select Text-->
+		<Row Tag="LOC_MAIN_CHAR_SELECT_LEADER_CROMWELL_ANY">
+			<Text>I desire not to keep my place in this government an hour longer than I may preserve this nation in its just rights. </Text>
+		</Row>
+
+		<!-- Ada Lovelace Statement Text-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_LEADER_CROMWELL_ANY">
+			<Text>I am Oliver Cromwell. I am no King, but it is nonetheless by providence that I rule. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_RECIPIENT_LEADER_CROMWELL_ANY">
+			<Text>I am Oliver Cromwell. I am no King, but it is nonetheless by providence that I rule. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_LEADER_CROMWELL_ANY">
+			<Text>I am Oliver Cromwell. I am no King, but it is nonetheless by providence that I rule. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_INITIATOR_LEADER_CROMWELL_ANY">
+			<Text>Weeds and nettles, briars and thorns, have thriven under your shadow. I will see you removed from your office. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_RECIPIENT_LEADER_CROMWELL_ANY">
+			<Text>I tell you: we will cut off your head with the crown still upon it. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_AI_LEADER_CROMWELL_ANY">
+			<Text>No one rises so high as one who knows not where they are going. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_DEAL_ACCEPTED_LEADER_CROMWELL">
+			<Text>It must be the Lord who guided your countenance thus. It is to him we both owe our thanks. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_DEAL_REJECTED_LEADER_CROMWELL">
+			<Text>You have clearly bartered your conscience for bribes. Defile this sacred place no more. </Text>
+		</Row>
+	</EnglishText>
+</Database>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_UNIT_PIKEMAN_NAME">
+			<Text>Roundhead</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PIKEMAN_DESCRIPTION">
+			<Text>Narrative Event Infantry Unit.</Text>
+		</Row>
+	</EnglishText>
+</Database>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+	</Kinds>
+	<Types>
+		<Row Type="LEADER_CROMWELL" Kind="KIND_LEADER"/>
+		<!-- Base Leader Traits-->
+		<Row Type="TRAIT_LEADER_CROMWELL_ABILITY" Kind="KIND_TRAIT"/>
+
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_CROMWELL" Name="LOC_LEADER_CROMWELL_NAME" IsMajorLeader="true" AITargetCityPercentage="75" InheritFrom="LEADER_DEFAULT" />
+	</Leaders>
+	<CityEvents>
+	</CityEvents>
+	<SavingTypes>
+	</SavingTypes>
+	<SettlementPreferences>
+	</SettlementPreferences>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_CROMWELL" TraitType="TRAIT_LEADER_CROMWELL_ABILITY"/>
+		<Row LeaderType="LEADER_CROMWELL" TraitType="TRAIT_LEADER_ATTRIBUTE_CULTURAL"/>
+		<Row LeaderType="LEADER_CROMWELL" TraitType="TRAIT_LEADER_ATTRIBUTE_MILITARISTIC"/>
+		<Row LeaderType="LEADER_CROMWELL" TraitType="TRAIT_AQ_CULTURE_VICTORY"/>
+		<Row LeaderType="LEADER_CROMWELL" TraitType="TRAIT_EX_MILITARY_VICTORY"/>
+		<Row LeaderType="LEADER_CROMWELL" TraitType="TRAIT_MO_MILITARY_VICTORY"/>
+	</LeaderTraits>
+	
+	<Traits>
+		<!--Base Leader Traits-->
+		<Row TraitType="TRAIT_LEADER_CROMWELL_ABILITY" InternalOnly="true" Name="LOC_TRAIT_LEADER_CROMWELL_ABILITY_NAME" Description="LOC_TRAIT_LEADER_CROMWELL_ABILITY_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+			<Row TraitType="TRAIT_LEADER_CROMWELL_ABILITY" ModifierId="CROMWELL_MOD_HAPPINESS_PRODUCTION"/>
+			<Row TraitType="TRAIT_LEADER_CROMWELL_ABILITY" ModifierId="CROMWELL_MOD_HAPPINESS_CULTURE"/>
+			<Row TraitType="TRAIT_LEADER_CROMWELL_ABILITY" ModifierId="CROMWELL_MOD_POP_GOLD"/>
+			<Row TraitType="TRAIT_LEADER_CROMWELL_ABILITY" ModifierId="CROMWELL_MOD_SPECIALIST_HAPPINESS"/>
+			<Row TraitType="TRAIT_LEADER_CROMWELL_ABILITY" ModifierId="CROMWELL_MOD_POP_HAPPINESS"/>
+			<Row TraitType="TRAIT_LEADER_CROMWELL_ABILITY" ModifierId="CROMWELL_MOD_AGENDA_JERICHO_1"/>
+	</TraitModifiers>
+
+	<!--Start Bias Scoring. Leaders tend to be 20 for historic and 10 for gameplay where civ are 15 and 5. These counts each instance within there starting region and multiplied by the score and divided by proximity to the center.-->
+	<StartBiasBiomes>
+	</StartBiasBiomes>
+	<StartBiasTerrains>
+		<Row LeaderType="LEADER_CROMWELL" TerrainType="TERRAIN_NAVIGABLE_RIVER" Score="200"/>
+	</StartBiasTerrains>
+	<StartBiasFeatureClasses>
+	</StartBiasFeatureClasses>
+	<StartBiasRivers>
+	</StartBiasRivers>
+	<StartBiasAdjacentToCoasts>
+		<Row LeaderType="LEADER_CROMWELL" Score="50"/>
+	</StartBiasAdjacentToCoasts>
+	<StartBiasNaturalWonders>
+	</StartBiasNaturalWonders>
+	<TypeQuotes>
+		<Row Type="LEADER_CROMWELL" Quote="LOC_MAIN_CHAR_SELECT_LEADER_CROMWELL_ANY"/>
+	</TypeQuotes>
+
+
+</Database>

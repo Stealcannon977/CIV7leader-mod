@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <Types>
+        <Row Type="CROMWELL_10008A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_10008B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_10008C" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_10009A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_10009B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_10009C" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_10010A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_10010B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_10010C" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_10011A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_10011B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_10011C" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_10012A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_10012B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_10012C" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_10013A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_10013B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_10013C" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_10014A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_10014B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_10014C" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_10008E" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_LEADER_CHAIN_1218A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_LEADER_CHAIN_1218B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_LEADER_CHAIN_1218C" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_LEADER_CHAIN_1218D" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_LEADER_CHAIN_1219A" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_LEADER_CHAIN_1219B" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_LEADER_CHAIN_1219C" Kind="KIND_NARRATIVE_STORY"/>
+        <Row Type="CROMWELL_LEADER_CHAIN_1219D" Kind="KIND_NARRATIVE_STORY"/>
+    </Types>
+    <NarrativeStories>
+        <Row NarrativeStoryType="CROMWELL_10008A" Name="LOC_CROMWELL_10008A_NAME" Description="LOC_CROMWELL_10008A_DESCRIPTION" Completion="LOC_CROMWELL_10008A_COMPLETION" StoryTitle="LOC_CROMWELL_10008A_STORYTITLE" Age="AGE_MODERN" Activation="UNLOCKED" RequirementSetId="REQSET_CROMWELL_10008A_NARRATIVE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_10008B" Name="LOC_CROMWELL_10008B_NAME" Description="LOC_CROMWELL_10008B_DESCRIPTION" Completion="LOC_CROMWELL_10008B_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_10008C" Name="LOC_CROMWELL_10008C_NAME" Description="LOC_CROMWELL_10008C_DESCRIPTION" Completion="LOC_CROMWELL_10008C_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_10009A" Name="LOC_CROMWELL_10009A_NAME" Description="LOC_CROMWELL_10009A_DESCRIPTION" Completion="LOC_CROMWELL_10009A_COMPLETION" StoryTitle="LOC_CROMWELL_10009A_STORYTITLE" Age="AGE_MODERN" Activation="REQUISITE" RequirementSetId="REQSET_CROMWELL_10009A_NARRATIVE" ActivationRequirementSetId="REQSET_CROMWELL_10009A_NARRATIVE_REQUISITE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_10009B" Name="LOC_CROMWELL_10009B_NAME" Description="LOC_CROMWELL_10009B_DESCRIPTION" Completion="LOC_CROMWELL_10009B_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_10009C" Name="LOC_CROMWELL_10009C_NAME" Description="LOC_CROMWELL_10009C_DESCRIPTION" Completion="LOC_CROMWELL_10009C_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_10010A" Name="LOC_CROMWELL_10010A_NAME" Description="LOC_CROMWELL_10010A_DESCRIPTION" Completion="LOC_CROMWELL_10010A_COMPLETION" StoryTitle="LOC_CROMWELL_10010A_STORYTITLE" Age="AGE_MODERN" Activation="REQUISITE" RequirementSetId="REQSET_CROMWELL_10010A_NARRATIVE" ActivationRequirementSetId="REQSET_CROMWELL_10010A_NARRATIVE_REQUISITE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_10010B" Name="LOC_CROMWELL_10010B_NAME" Description="LOC_CROMWELL_10010B_DESCRIPTION" Completion="LOC_CROMWELL_10010B_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_10010C" Name="LOC_CROMWELL_10010C_NAME" Description="LOC_CROMWELL_10010C_DESCRIPTION" Completion="LOC_CROMWELL_10010C_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_10011A" Name="LOC_CROMWELL_10011A_NAME" Description="LOC_CROMWELL_10011A_DESCRIPTION" Completion="LOC_CROMWELL_10011A_COMPLETION" StoryTitle="LOC_CROMWELL_10011A_STORYTITLE" Age="AGE_MODERN" Activation="REQUISITE" RequirementSetId="REQSET_CROMWELL_10011A_NARRATIVE" ActivationRequirementSetId="REQSET_CROMWELL_10011A_NARRATIVE_REQUISITE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_10011B" Name="LOC_CROMWELL_10011B_NAME" Description="LOC_CROMWELL_10011B_DESCRIPTION" Completion="LOC_CROMWELL_10011B_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_10011C" Name="LOC_CROMWELL_10011C_NAME" Description="LOC_CROMWELL_10011C_DESCRIPTION" Completion="LOC_CROMWELL_10011C_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_10012A" Name="LOC_CROMWELL_10012A_NAME" Description="LOC_CROMWELL_10012A_DESCRIPTION" Completion="LOC_CROMWELL_10012A_COMPLETION" StoryTitle="LOC_CROMWELL_10012A_STORYTITLE" Age="AGE_MODERN" Activation="REQUISITE" RequirementSetId="REQSET_CROMWELL_10012A_NARRATIVE" ActivationRequirementSetId="REQSET_CROMWELL_10012A_NARRATIVE_REQUISITE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_10012B" Name="LOC_CROMWELL_10012B_NAME" Description="LOC_CROMWELL_10012B_DESCRIPTION" Completion="LOC_CROMWELL_10012B_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_10012C" Name="LOC_CROMWELL_10012C_NAME" Description="LOC_CROMWELL_10012C_DESCRIPTION" Completion="LOC_CROMWELL_10012C_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_10013A" Name="LOC_CROMWELL_10013A_NAME" Description="LOC_CROMWELL_10013A_DESCRIPTION" Completion="LOC_CROMWELL_10013A_COMPLETION" StoryTitle="LOC_CROMWELL_10013A_STORYTITLE" Age="AGE_MODERN" Activation="REQUISITE" RequirementSetId="REQSET_CROMWELL_10013A_NARRATIVE" ActivationRequirementSetId="REQSET_CROMWELL_10013A_NARRATIVE_REQUISITE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_10013B" Name="LOC_CROMWELL_10013B_NAME" Description="LOC_CROMWELL_10013B_DESCRIPTION" Completion="LOC_CROMWELL_10013B_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_10013C" Name="LOC_CROMWELL_10013C_NAME" Description="LOC_CROMWELL_10013C_DESCRIPTION" Completion="LOC_CROMWELL_10013C_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_10014A" Name="LOC_CROMWELL_10014A_NAME" Description="LOC_CROMWELL_10014A_DESCRIPTION" Completion="LOC_CROMWELL_10014A_COMPLETION" StoryTitle="LOC_CROMWELL_10014A_STORYTITLE" Age="AGE_MODERN" Activation="REQUISITE" RequirementSetId="REQSET_CROMWELL_10014A_NARRATIVE" ActivationRequirementSetId="REQSET_CROMWELL_10014A_NARRATIVE_REQUISITE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_10014B" Name="LOC_CROMWELL_10014B_NAME" Description="LOC_CROMWELL_10014B_DESCRIPTION" Completion="LOC_CROMWELL_10014B_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_10014C" Name="LOC_CROMWELL_10014C_NAME" Description="LOC_CROMWELL_10014C_DESCRIPTION" Completion="LOC_CROMWELL_10014C_COMPLETION" Age="AGE_MODERN" Activation="LINKED" Hidden="TRUE" RequirementSetId="Met" UIActivation="STANDARD"/>
+		<Row NarrativeStoryType="CROMWELL_10008E" Name="LOC_CROMWELL_10008A_NAME" Description="LOC_CROMWELL_10008A_DESCRIPTION" Completion="LOC_CROMWELL_10008A_COMPLETION" Age="AGE_MODERN" Activation="REQUISITE" Hidden="TRUE" RequirementSetId="REQSET_CROMWELL_10008E_NARRATIVE" ActivationRequirementSetId="REQSET_CROMWELL_10008E_NARRATIVE_REQUISITE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1218A" Name="LOC_CROMWELL_LEADER_CHAIN_1218A_NAME" Description="LOC_CROMWELL_LEADER_CHAIN_1218A_DESCRIPTION" Completion="LOC_CROMWELL_LEADER_CHAIN_1218A_COMPLETION" StoryTitle="LOC_CROMWELL_LEADER_CHAIN_1218A_STORYTITLE" Age="AGE_MODERN" Activation="REQUISITE" RequirementSetId="REQSET_CROMWELL_LEADER_CHAIN_1218A_NARRATIVE" ActivationRequirementSetId="REQSET_CROMWELL_LEADER_CHAIN_1218A_NARRATIVE_REQUISITE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1218B" Name="LOC_CROMWELL_LEADER_CHAIN_1218B_NAME" Description="LOC_CROMWELL_LEADER_CHAIN_1218B_DESCRIPTION" Completion="LOC_CROMWELL_LEADER_CHAIN_1218B_COMPLETION" StoryTitle="LOC_CROMWELL_LEADER_CHAIN_1218B_STORYTITLE" Age="AGE_MODERN" Activation="LINKED" Imperative="LOC_CROMWELL_LEADER_CHAIN_1218B_IMPERATIVE" IsQuest="TRUE" RequirementSetId="REQSET_CROMWELL_LEADER_CHAIN_1218B_NARRATIVE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1218C" Name="LOC_CROMWELL_LEADER_CHAIN_1218C_NAME" Description="LOC_CROMWELL_LEADER_CHAIN_1218C_DESCRIPTION" Completion="LOC_CROMWELL_LEADER_CHAIN_1218C_COMPLETION" Age="AGE_MODERN" Activation="LINKED_REQUISITE" Hidden="TRUE" RequirementSetId="Met" ActivationRequirementSetId="REQSET_CROMWELL_LEADER_CHAIN_1218C_NARRATIVE_REQUISITE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1218D" Name="LOC_CROMWELL_LEADER_CHAIN_1218D_NAME" Description="LOC_CROMWELL_LEADER_CHAIN_1218D_DESCRIPTION" Completion="LOC_CROMWELL_LEADER_CHAIN_1218D_COMPLETION" Age="AGE_MODERN" Activation="LINKED_REQUISITE" Hidden="TRUE" RequirementSetId="Met" ActivationRequirementSetId="REQSET_CROMWELL_LEADER_CHAIN_1218D_NARRATIVE_REQUISITE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1219A" Name="LOC_CROMWELL_LEADER_CHAIN_1219A_NAME" Description="LOC_CROMWELL_LEADER_CHAIN_1219A_DESCRIPTION" Completion="LOC_CROMWELL_LEADER_CHAIN_1219A_COMPLETION" StoryTitle="LOC_CROMWELL_LEADER_CHAIN_1219A_STORYTITLE" Age="AGE_MODERN" Activation="REQUISITE" RequirementSetId="REQSET_CROMWELL_LEADER_CHAIN_1219A_NARRATIVE" ActivationRequirementSetId="REQSET_CROMWELL_LEADER_CHAIN_1219A_NARRATIVE_REQUISITE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1219B" Name="LOC_CROMWELL_LEADER_CHAIN_1219B_NAME" Description="LOC_CROMWELL_LEADER_CHAIN_1219B_DESCRIPTION" Completion="LOC_CROMWELL_LEADER_CHAIN_1219B_COMPLETION" StoryTitle="LOC_CROMWELL_LEADER_CHAIN_1219B_STORYTITLE" Age="AGE_MODERN" Activation="LINKED" Imperative="LOC_CROMWELL_LEADER_CHAIN_1219B_IMPERATIVE" IsQuest="TRUE" ShowProgress="TRUE" RequirementSetId="REQSET_CROMWELL_LEADER_CHAIN_1219B_NARRATIVE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1219C" Name="LOC_CROMWELL_LEADER_CHAIN_1219C_NAME" Description="LOC_CROMWELL_LEADER_CHAIN_1219C_DESCRIPTION" Completion="LOC_CROMWELL_LEADER_CHAIN_1219C_COMPLETION" Age="AGE_MODERN" Activation="LINKED_REQUISITE" Hidden="TRUE" RequirementSetId="Met" ActivationRequirementSetId="REQSET_CROMWELL_LEADER_CHAIN_1219C_NARRATIVE_REQUISITE" UIActivation="STANDARD"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1219D" Name="LOC_CROMWELL_LEADER_CHAIN_1219D_NAME" Description="LOC_CROMWELL_LEADER_CHAIN_1219D_DESCRIPTION" Completion="LOC_CROMWELL_LEADER_CHAIN_1219D_COMPLETION" Age="AGE_MODERN" Activation="LINKED_REQUISITE" Hidden="TRUE" RequirementSetId="Met" ActivationRequirementSetId="REQSET_CROMWELL_LEADER_CHAIN_1219D_NARRATIVE_REQUISITE" UIActivation="STANDARD"/>
+    </NarrativeStories>
+    <NarrativeRewards>
+        <Row NarrativeRewardType="CROMWELL_10008B_REWARD" ModifierID="CROMWELL_10008B_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CROMWELL_10008B_REWARD2" ModifierID="CROMWELL_10008B_NARRATIVE_MODIFIER2"/>
+        <Row NarrativeRewardType="CROMWELL_10008C_REWARD" ModifierID="CROMWELL_10008C_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CROMWELL_10008C_REWARD2" ModifierID="CROMWELL_10008C_NARRATIVE_MODIFIER2"/>
+        <Row NarrativeRewardType="CROMWELL_10009B_REWARD" ModifierID="CROMWELL_10009B_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CROMWELL_10009C_REWARD" ModifierID="CROMWELL_10009C_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CROMWELL_10010B_REWARD" ModifierID="CROMWELL_10010B_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CROMWELL_10010C_REWARD" ModifierID="CROMWELL_10010C_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CROMWELL_10011B_REWARD" ModifierID="CROMWELL_10011B_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CROMWELL_10011B_REWARD2" ModifierID="CROMWELL_10011B_NARRATIVE_MODIFIER2"/>
+        <Row NarrativeRewardType="CROMWELL_10011C_REWARD" ModifierID="CROMWELL_10011C_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CROMWELL_10011C_REWARD2" ModifierID="CROMWELL_10011C_NARRATIVE_MODIFIER2"/>
+        <Row NarrativeRewardType="CROMWELL_10012B_REWARD" ModifierID="CROMWELL_10012B_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CROMWELL_10012C_REWARD" ModifierID="CROMWELL_10012C_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CROMWELL_10013B_REWARD" ModifierID="CROMWELL_10013B_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CROMWELL_10013C_REWARD" ModifierID="CROMWELL_10013C_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CROMWELL_10014B_REWARD" ModifierID="CROMWELL_10014B_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CROMWELL_10014C_REWARD" ModifierID="CROMWELL_10014C_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CROMWELL_LEADER_CHAIN_1218B_REWARD" ModifierID="CROMWELL_LEADER_CHAIN_1218B_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CROMWELL_LEADER_CHAIN_1218C_REWARD" ModifierID="CROMWELL_LEADER_CHAIN_1218C_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CROMWELL_LEADER_CHAIN_1218C_REWARD2" ModifierID="CROMWELL_LEADER_CHAIN_1218C_NARRATIVE_MODIFIER2"/>
+        <Row NarrativeRewardType="CROMWELL_LEADER_CHAIN_1218D_REWARD" ModifierID="CROMWELL_LEADER_CHAIN_1218D_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CROMWELL_LEADER_CHAIN_1218D_REWARD2" ModifierID="CROMWELL_LEADER_CHAIN_1218D_NARRATIVE_MODIFIER2"/>
+        <Row NarrativeRewardType="CROMWELL_LEADER_CHAIN_1219B_REWARD" ModifierID="CROMWELL_LEADER_CHAIN_1219B_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CROMWELL_LEADER_CHAIN_1219C_REWARD" ModifierID="CROMWELL_LEADER_CHAIN_1219C_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CROMWELL_LEADER_CHAIN_1219C_REWARD2" ModifierID="CROMWELL_LEADER_CHAIN_1219C_NARRATIVE_MODIFIER2"/>
+        <Row NarrativeRewardType="CROMWELL_LEADER_CHAIN_1219D_REWARD" ModifierID="CROMWELL_LEADER_CHAIN_1219D_NARRATIVE_MODIFIER"/>
+        <Row NarrativeRewardType="CROMWELL_LEADER_CHAIN_1219D_REWARD2" ModifierID="CROMWELL_LEADER_CHAIN_1219D_NARRATIVE_MODIFIER2"/>
+    </NarrativeRewards>
+    <NarrativeStory_Rewards>
+        <Row NarrativeStoryType="CROMWELL_10008B" NarrativeRewardType="CROMWELL_10008B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_10008B" NarrativeRewardType="CROMWELL_10008B_REWARD2" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_10008C" NarrativeRewardType="CROMWELL_10008C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_10008C" NarrativeRewardType="CROMWELL_10008C_REWARD2" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_10009B" NarrativeRewardType="CROMWELL_10009B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_10009C" NarrativeRewardType="CROMWELL_10009C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_10010B" NarrativeRewardType="CROMWELL_10010B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_10010C" NarrativeRewardType="CROMWELL_10010C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_10011B" NarrativeRewardType="CROMWELL_10011B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_10011B" NarrativeRewardType="CROMWELL_10011B_REWARD2" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_10011C" NarrativeRewardType="CROMWELL_10011C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_10011C" NarrativeRewardType="CROMWELL_10011C_REWARD2" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_10012B" NarrativeRewardType="CROMWELL_10012B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_10012C" NarrativeRewardType="CROMWELL_10012C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_10013B" NarrativeRewardType="CROMWELL_10013B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_10013C" NarrativeRewardType="CROMWELL_10013C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_10014B" NarrativeRewardType="CROMWELL_10014B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_10014C" NarrativeRewardType="CROMWELL_10014C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1218B" NarrativeRewardType="CROMWELL_LEADER_CHAIN_1218B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1218C" NarrativeRewardType="CROMWELL_LEADER_CHAIN_1218C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1218C" NarrativeRewardType="CROMWELL_LEADER_CHAIN_1218C_REWARD2" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1218D" NarrativeRewardType="CROMWELL_LEADER_CHAIN_1218D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1218D" NarrativeRewardType="CROMWELL_LEADER_CHAIN_1218D_REWARD2" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1219B" NarrativeRewardType="CROMWELL_LEADER_CHAIN_1219B_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1219C" NarrativeRewardType="CROMWELL_LEADER_CHAIN_1219C_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1219C" NarrativeRewardType="CROMWELL_LEADER_CHAIN_1219C_REWARD2" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1219D" NarrativeRewardType="CROMWELL_LEADER_CHAIN_1219D_REWARD" Activation="START"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1219D" NarrativeRewardType="CROMWELL_LEADER_CHAIN_1219D_REWARD2" Activation="START"/>
+    </NarrativeStory_Rewards>
+    <NarrativeStoryOverrides>
+        <Row NarrativeStoryType="CROMWELL_10008B" OverriddenStoryType="CROMWELL_10008E"/>
+        <Row NarrativeStoryType="CROMWELL_10008C" OverriddenStoryType="CROMWELL_10008E"/>
+    </NarrativeStoryOverrides>
+    <NarrativeVariations>
+    </NarrativeVariations>
+    <NarrativeRewardIcons>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1218B" RewardIconType="QUEST"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1218B" RewardIconType="ATTRIBUTE_MILITARISTIC"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1219B" RewardIconType="QUEST"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1219B" RewardIconType="ATTRIBUTE_CULTURAL"/>
+        <Row NarrativeStoryType="CROMWELL_10008B" RewardIconType="UNIT"/>
+        <Row NarrativeStoryType="CROMWELL_10008B" RewardIconType="DIPLOMACY" Negative="TRUE"/>
+        <Row NarrativeStoryType="CROMWELL_10008C" RewardIconType="UNIT"/>
+        <Row NarrativeStoryType="CROMWELL_10008C" RewardIconType="YIELD_HAPPINESS" Negative="TRUE"/>
+        <Row NarrativeStoryType="CROMWELL_10009B" RewardIconType="YIELD_HAPPINESS"/>
+        <Row NarrativeStoryType="CROMWELL_10009C" RewardIconType="YIELD_CULTURE"/>
+        <Row NarrativeStoryType="CROMWELL_10010B" RewardIconType="YIELD_HAPPINESS" Negative="TRUE"/>
+        <Row NarrativeStoryType="CROMWELL_10010C" RewardIconType="YIELD_HAPPINESS" Negative="TRUE"/>
+        <Row NarrativeStoryType="CROMWELL_10011B" RewardIconType="YIELD_GOLD"/>
+        <Row NarrativeStoryType="CROMWELL_10011B" RewardIconType="YIELD_HAPPINESS" Negative="TRUE"/>
+        <Row NarrativeStoryType="CROMWELL_10011C" RewardIconType="YIELD_HAPPINESS"/>
+        <Row NarrativeStoryType="CROMWELL_10011C" RewardIconType="YIELD_GOLD" Negative="TRUE"/>
+        <Row NarrativeStoryType="CROMWELL_10012B" RewardIconType="YIELD_HAPPINESS" Negative="TRUE"/>
+        <Row NarrativeStoryType="CROMWELL_10012C" RewardIconType="YIELD_GOLD" Negative="TRUE"/>
+        <Row NarrativeStoryType="CROMWELL_10013B" RewardIconType="YIELD_SCIENCE"/>
+        <Row NarrativeStoryType="CROMWELL_10013C" RewardIconType="YIELD_CULTURE"/>
+        <Row NarrativeStoryType="CROMWELL_10014B" RewardIconType="GREATWORK"/>
+        <Row NarrativeStoryType="CROMWELL_10014C" RewardIconType="YIELD_HAPPINESS"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1218C" RewardIconType="YIELD_CULTURE"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1218C" RewardIconType="YIELD_PRODUCTION" Negative="TRUE"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1218D" RewardIconType="YIELD_FOOD"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1218D" RewardIconType="YIELD_HAPPINESS" Negative="TRUE"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1219C" RewardIconType="YIELD_CULTURE"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1219C" RewardIconType="YIELD_PRODUCTION" Negative="TRUE"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1219D" RewardIconType="YIELD_FOOD"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1219D" RewardIconType="YIELD_HAPPINESS" Negative="TRUE"/>
+    </NarrativeRewardIcons>
+    <NarrativeStory_TextReplacements>
+        <Row NarrativeStoryType="CROMWELL_10008A" NarrativeStoryTextType="BODY" NarrativeTextReplacementType="OWNER_EXPLORATION_CIVILIZATION_ADJ" Priority="1"/>
+        <Row NarrativeStoryType="CROMWELL_10008A" NarrativeStoryTextType="BODY" NarrativeTextReplacementType="OPPONENT_CIVILIZATION_ADJ" Priority="2"/>
+        <Row NarrativeStoryType="CROMWELL_10008B" NarrativeStoryTextType="OPTION" NarrativeTextReplacementType="OWNER_EXPLORATION_CIVILIZATION_ADJ" Priority="1"/>
+        <Row NarrativeStoryType="CROMWELL_10008B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CROMWELL_10008B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="2"/>
+        <Row NarrativeStoryType="CROMWELL_10008C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CROMWELL_10008C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="2"/>
+        <Row NarrativeStoryType="CROMWELL_10009B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CROMWELL_10009C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CROMWELL_10010B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CROMWELL_10010C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CROMWELL_10011B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CROMWELL_10011B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="2"/>
+        <Row NarrativeStoryType="CROMWELL_10011C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CROMWELL_10011C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="2"/>
+        <Row NarrativeStoryType="CROMWELL_10012B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CROMWELL_10012C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CROMWELL_10013B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CROMWELL_10013C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CROMWELL_10014A" NarrativeStoryTextType="BODY" NarrativeTextReplacementType="OWNER_EXPLORATION_CIVILIZATION_ADJ" Priority="1"/>
+        <Row NarrativeStoryType="CROMWELL_10014B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CROMWELL_10014C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1218B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1218C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1218D" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1219B" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1219C" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+        <Row NarrativeStoryType="CROMWELL_LEADER_CHAIN_1219D" NarrativeStoryTextType="REWARD" NarrativeTextReplacementType="REWARD" Priority="1"/>
+    </NarrativeStory_TextReplacements>
+    <NarrativeStory_Links>
+        <Row FromNarrativeStoryType="CROMWELL_10008A" ToNarrativeStoryType="CROMWELL_10008B" Priority="0" Name="LOC_CROMWELL_10008B_NAME" Description="LOC_CROMWELL_10008B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CROMWELL_10008A" ToNarrativeStoryType="CROMWELL_10008C" Priority="1" Name="LOC_CROMWELL_10008C_NAME" Description="LOC_CROMWELL_10008C_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CROMWELL_10009A" ToNarrativeStoryType="CROMWELL_10009B" Priority="0" Name="LOC_CROMWELL_10009B_NAME" Description="LOC_CROMWELL_10009B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CROMWELL_10009A" ToNarrativeStoryType="CROMWELL_10009C" Priority="1" Name="LOC_CROMWELL_10009C_NAME" Description="LOC_CROMWELL_10009C_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CROMWELL_10010A" ToNarrativeStoryType="CROMWELL_10010B" Priority="0" Name="LOC_CROMWELL_10010B_NAME" Description="LOC_CROMWELL_10010B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CROMWELL_10010A" ToNarrativeStoryType="CROMWELL_10010C" Priority="1" Name="LOC_CROMWELL_10010C_NAME" Description="LOC_CROMWELL_10010C_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CROMWELL_10011A" ToNarrativeStoryType="CROMWELL_10011B" Priority="0" Name="LOC_CROMWELL_10011B_NAME" Description="LOC_CROMWELL_10011B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CROMWELL_10011A" ToNarrativeStoryType="CROMWELL_10011C" Priority="1" Name="LOC_CROMWELL_10011C_NAME" Description="LOC_CROMWELL_10011C_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CROMWELL_10012A" ToNarrativeStoryType="CROMWELL_10012B" Priority="0" Name="LOC_CROMWELL_10012B_NAME" Description="LOC_CROMWELL_10012B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CROMWELL_10012A" ToNarrativeStoryType="CROMWELL_10012C" Priority="1" Name="LOC_CROMWELL_10012C_NAME" Description="LOC_CROMWELL_10012C_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CROMWELL_10013A" ToNarrativeStoryType="CROMWELL_10013B" Priority="0" Name="LOC_CROMWELL_10013B_NAME" Description="LOC_CROMWELL_10013B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CROMWELL_10013A" ToNarrativeStoryType="CROMWELL_10013C" Priority="1" Name="LOC_CROMWELL_10013C_NAME" Description="LOC_CROMWELL_10013C_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CROMWELL_10014A" ToNarrativeStoryType="CROMWELL_10014B" Priority="0" Name="LOC_CROMWELL_10014B_NAME" Description="LOC_CROMWELL_10014B_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CROMWELL_10014A" ToNarrativeStoryType="CROMWELL_10014C" Priority="1" Name="LOC_CROMWELL_10014C_NAME" Description="LOC_CROMWELL_10014C_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CROMWELL_10008E" ToNarrativeStoryType="CROMWELL_10008A" Priority="0" Name="LOC_CROMWELL_10008A_NAME" Description="LOC_CROMWELL_10008A_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CROMWELL_LEADER_CHAIN_1218A" ToNarrativeStoryType="CROMWELL_LEADER_CHAIN_1218B" Priority="0" Name="LOC_CROMWELL_LEADER_CHAIN_1218B_NAME" Description="LOC_CROMWELL_LEADER_CHAIN_1218B_DESCRIPTION" Imperative="LOC_CROMWELL_LEADER_CHAIN_1218B_IMPERATIVE"/>
+        <Row FromNarrativeStoryType="CROMWELL_LEADER_CHAIN_1218A" ToNarrativeStoryType="CROMWELL_LEADER_CHAIN_1218C" Priority="1" Name="LOC_CROMWELL_LEADER_CHAIN_1218C_NAME" Description="LOC_CROMWELL_LEADER_CHAIN_1218C_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CROMWELL_LEADER_CHAIN_1218A" ToNarrativeStoryType="CROMWELL_LEADER_CHAIN_1218D" Priority="2" Name="LOC_CROMWELL_LEADER_CHAIN_1218D_NAME" Description="LOC_CROMWELL_LEADER_CHAIN_1218D_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CROMWELL_LEADER_CHAIN_1219A" ToNarrativeStoryType="CROMWELL_LEADER_CHAIN_1219B" Priority="0" Name="LOC_CROMWELL_LEADER_CHAIN_1219B_NAME" Description="LOC_CROMWELL_LEADER_CHAIN_1219B_DESCRIPTION" Imperative="LOC_CROMWELL_LEADER_CHAIN_1219B_IMPERATIVE"/>
+        <Row FromNarrativeStoryType="CROMWELL_LEADER_CHAIN_1219A" ToNarrativeStoryType="CROMWELL_LEADER_CHAIN_1219C" Priority="1" Name="LOC_CROMWELL_LEADER_CHAIN_1219C_NAME" Description="LOC_CROMWELL_LEADER_CHAIN_1219C_DESCRIPTION"/>
+        <Row FromNarrativeStoryType="CROMWELL_LEADER_CHAIN_1219A" ToNarrativeStoryType="CROMWELL_LEADER_CHAIN_1219D" Priority="2" Name="LOC_CROMWELL_LEADER_CHAIN_1219D_NAME" Description="LOC_CROMWELL_LEADER_CHAIN_1219D_DESCRIPTION"/>
+    </NarrativeStory_Links>
+</Database>

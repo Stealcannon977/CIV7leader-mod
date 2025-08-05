@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="oliver-cromwell" version="5"
+	xmlns="ModInfo">
+	<Properties>
+		<Name>LOC_MODULE_OLIVER_CROMWELL_NAME</Name>
+		<Description>LOC_MODULE_OLIVER_CROMWELL_DESCRIPTION</Description>
+		<Authors>LOC_MODULE_OLIVER_CROMWELL_AUTHOR</Authors>
+		<Package>MOD</Package>
+	</Properties>
+	<Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+		<Mod id="great-britain" title="LOC_MODULE_GREAT_BRITAIN_NAME"/>
+		<Mod id="izica-leader-model-changer" title="Izica's Leader model changer"/>
+	</Dependencies>
+	<References>
+		<Mod id="matts-scotland" title="LOC_MODULE_MATTS_SCOTLAND_NAME"/>
+		<Mod id="matts-britons" title="LOC_MODULE_MATTS_BRITONS_NAME"/>
+	</References>
+	<ActionCriteria>
+		<Criteria id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-current">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-current">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>	
+		<Criteria id="antiquity-age-persist" any="true">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-persist" any="true">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-persist" any="true">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="antiquity-age-britons">
+			<ModInUse>britons</ModInUse>
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-scotland">
+			<ModInUse>matts-scotland</ModInUse>
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<ActionGroup id="base-game-main-cromwell" scope="game" criteria="always">
+			<Actions>
+				<UIScripts>
+					<Item>ui/game.js</Item>
+				</UIScripts>
+				<ImportFiles>
+					<Item>icons/lp_circ_cromwell_256.png</Item>
+					<Item>icons/lp_circ_cromwell_256</Item>
+					<Item>icons/lp_circ_cromwell_128.png</Item>
+					<Item>icons/lp_circ_cromwell_128</Item>
+					<Item>icons/lp_circ_cromwell_64.png</Item>
+					<Item>icons/lp_circ_cromwell_64</Item>
+					<Item>icons/lp_hex_cromwell_256.png</Item>
+					<Item>icons/lp_hex_cromwell_256</Item>
+					<Item>icons/lp_hex_cromwell_128.png</Item>
+					<Item>icons/lp_hex_cromwell_128</Item>
+					<Item>icons/lp_hex_cromwell_64.png</Item>
+					<Item>icons/lp_hex_cromwell_64</Item>
+					<Item>textures/lsl_cromwell</Item>
+				</ImportFiles>
+				<UpdateIcons>
+					<Item>data/icons/leader-icons.xml</Item>
+				</UpdateIcons>
+				<UpdateDatabase>
+
+					<Item>data/civilizations-legacy.xml</Item>
+					<Item>data/leaders.xml</Item>
+					<Item>data/leaders-gameeffects.xml</Item>
+					<Item>data/narrative-stories-gameeffects.xml</Item>
+					<Item>data/unlocks.xml</Item>
+					<Item>data/metaprogression-gameeffects.xml</Item>
+					<Item>data/metaprogression.xml</Item>
+					<Item>data/progression-trees-common-gameeffects.xml</Item>
+					<Item>data/progression-trees-common.xml</Item>
+					<Item>data/loading-info.xml</Item>
+					<Item>data/mementos.xml</Item>
+					<Item>data/mementos-gameeffects.xml</Item>
+
+				</UpdateDatabase>
+				<UpdateColors>
+					<Item>data/playercolors.xml</Item>
+				</UpdateColors>
+				<UpdateText>
+					<Item>text/en_us/en_US_Text.xml</Item>
+					<File>text/en_us/ModuleText.xml</File>
+					<Item>text/en_us/NarrativeStoriesText.xml</Item>
+					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/MetaprogressionText.generated.xml</Item>
+					<Item>text/en_us/LeaderDialog_Cromwell.xml</Item>
+					<Item>text/en_us/AttributesText.xml</Item>
+					<Item>text/en_us/MementoText.xml</Item>
+					<Item>text/en_us/UnlockableRewardsText.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		
+		<ActionGroup id="age-antiquity-current-cromwell" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/narrative-stories-gameeffects-antiquity.xml</Item>
+					<Item>data/narrative-stories-antiquity.xml</Item>
+					<Item>data/civilizations-antiquity.xml</Item>
+								
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/AdvancedStartText-exploration.xml</Item>
+				</UpdateText>
+				
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-exploration-current-cromwell" scope="game" criteria="exploration-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/narrative-stories-gameeffects-exploration.xml</Item>
+					<Item>data/narrative-stories-exploration.xml</Item>
+					<Item>data/civilizations-exploration.xml</Item>
+					<Item>data/age-transition-advanced-start-exploration.xml</Item>
+					<Item>data/unlocks-exploration.xml</Item>
+								
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/AdvancedStartText-exploration.xml</Item>
+				</UpdateText>
+				
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-modern-current-cromwell" scope="game" criteria="modern-age-current">
+			<Actions>
+				<UpdateDatabase>
+								
+					<Item>data/narrative-stories-gameeffects-modern.xml</Item>
+					<Item>data/narrative-stories-modern.xml</Item>
+					<Item>data/civilizations-modern.xml</Item>
+					<Item>data/units-modern.xml</Item>
+					<Item>data/age-transition-advanced-start-modern.xml</Item>
+					
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/UnitText.xml</Item>
+					<Item>text/en_us/AdvancedStartText-modern.xml</Item>
+				</UpdateText>
+				
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-exploration-scotland-current" scope="game" criteria="exploration-age-scotland">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/leadercivpriorities-scotland.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-antiquity-britons-current" scope="game" criteria="antiquity-age-britons">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/leadercivpriorities-britons.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+		
+		<ActionGroup id="shell-cromwell" scope="shell" criteria="always">
+			<Actions>
+				<UIScripts>
+					<Item>ui/shell.js</Item>
+				</UIScripts>
+				<ImportFiles>
+					<Item>icons/lp_circ_cromwell_256.png</Item>
+					<Item>icons/lp_circ_cromwell_256</Item>
+					<Item>icons/lp_circ_cromwell_128.png</Item>
+					<Item>icons/lp_circ_cromwell_128</Item>
+					<Item>icons/lp_circ_cromwell_64.png</Item>
+					<Item>icons/lp_circ_cromwell_64</Item>
+					<Item>icons/lp_hex_cromwell_256.png</Item>
+					<Item>icons/lp_hex_cromwell_256</Item>
+					<Item>icons/lp_hex_cromwell_128.png</Item>
+					<Item>icons/lp_hex_cromwell_128</Item>
+					<Item>icons/lp_hex_cromwell_64.png</Item>
+					<Item>icons/lp_hex_cromwell_64</Item>
+					<Item>icons/mem_min_cromwell_mace.png</Item>
+					<Item>icons/mem_min_cromwell_mace</Item>
+					<Item>icons/mem_min_cromwell_knm.png</Item>
+					<Item>icons/mem_min_cromwell_knm</Item>
+					<Item>icons/mem_min_cromwell_lobster.png</Item>
+					<Item>icons/mem_min_cromwell_lobster</Item>
+					<Item>textures/lsl_cromwell</Item>
+				</ImportFiles>
+				<UpdateIcons>
+					<Item>data/icons/leader-icons.xml</Item>
+				</UpdateIcons>
+				<UpdateDatabase>
+					<Item>config/config.xml</Item>
+					<Item>config/metaprogression.xml</Item>
+					<Item>config/unlockableRewards.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<File>text/en_us/ModuleText.xml</File>
+					<Item>text/en_us/en_US_Text.xml</Item>
+					<Item>text/en_us/LoadingText.xml</Item>
+					<Item>text/en_us/MetaprogressionText.generated.xml</Item>
+					<Item>text/en_us/LeaderDialog_Cromwell.xml</Item>
+					<Item>text/en_us/MementoText.xml</Item>
+					<Item>text/en_us/UnlockableRewardsText.xml</Item>
+				</UpdateText>
+
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+	<LocalizedText>
+		<File>text/en_us/ModuleText.xml</File>
+	</LocalizedText>
+</Mod>

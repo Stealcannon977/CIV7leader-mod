@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	
+	<Leaders>
+	
+		<Row LeaderType="LEADER_CROMWELL" LeaderName="LOC_LEADER_CROMWELL_NAME" LeaderDescription="LOC_LEADER_CROMWELL_DESCRIPTION" LeaderIcon="LEADER_CROMWELL"/>
+
+	</Leaders>
+	
+	<LeaderItems>
+		<Row LeaderType="LEADER_CROMWELL" Type="TRAIT_LEADER_CROMWELL_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_LEADER_CROMWELL_ABILITY_NAME" Description="LOC_TRAIT_LEADER_CROMWELL_ABILITY_DESCRIPTION"/>
+	</LeaderItems>
+	<LeaderTags>
+		<Row LeaderType="LEADER_CROMWELL" TagType="TAG_TRAIT_CULTURAL"/>
+		<Row LeaderType="LEADER_CROMWELL" TagType="TAG_TRAIT_MILITARISTIC"/>
+		<Row LeaderType="LEADER_CROMWELL" TagType="TAG_GENDER_MALE"/>
+		<Row LeaderType="LEADER_CROMWELL" TagType="TAG_ORIGIN_EUROPE_NORTH"/>
+	</LeaderTags>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_CROMWELL" Quote="LOC_MAIN_CHAR_SELECT_LEADER_CROMWELL_ANY"/>
+	</LeaderQuotes>
+	<LeaderUnlocks>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_CROMWELL" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_NORMAN" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_NORMAN_NAME" Description="LOC_CIVILIZATION_NORMAN_DESCRIPTION" Icon="CIVILIZATION_NORMAN"/>
+		<InsertOrIgnore LeaderDomain="StandardLeaders" LeaderType="LEADER_CROMWELL" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_MATTS_SCOTLAND" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_MATTS_SCOTLAND_NAME" Description="LOC_CIVILIZATION_MATTS_SCOTLAND_DESCRIPTION" Icon="CIVILIZATION_MATTS_SCOTLAND"/>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_CROMWELL" AgeDomain="StandardAges" AgeType="AGE_MODERN" Type="CIVILIZATION_GREAT_BRITAIN" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_GREAT_BRITAIN_NAME" Description="LOC_CIVILIZATION_GREAT_BRITAIN_DESCRIPTION" Icon="ICON_CIVILIZATION_GREAT_BRITAIN"/>
+	</LeaderUnlocks>
+	<LeaderCivilizationBias>
+		<!--This is the table used for UI, the AI uses LeaderCivPriorities in civilizations.xml-->
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_NORMAN" LeaderDomain="StandardLeaders" LeaderType="LEADER_CROMWELL" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_CROMWELL_NORMAN_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<InsertOrIgnore CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_MATTS_SCOTLAND" LeaderDomain="StandardLeaders" LeaderType="LEADER_CROMWELL" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_CROMWELL_MATTS_SCOTLAND_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ROME" LeaderDomain="StandardLeaders" LeaderType="LEADER_CROMWELL" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_CROMWELL_ROME_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GREECE" LeaderDomain="StandardLeaders" LeaderType="LEADER_CROMWELL" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_CROMWELL_GREECE_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE"/>
+
+		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_MEXICO" LeaderDomain="StandardLeaders" LeaderType="LEADER_CROMWELL" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_CROMWELL_MEXICO_TOOLTIP" ChoiceType="LOC_CREATE_GAME_STRATEGIC_CHOICE"/>
+		<Row CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_FRANCE" LeaderDomain="StandardLeaders" LeaderType="LEADER_CROMWELL" Bias="3" ReasonType="LOC_UNLOCK_PLAY_AS_CROMWELL_FRANCE_TOOLTIP" ChoiceType="LOC_CREATE_GAME_STRATEGIC_CHOICE"/>
+		<InsertOrIgnore CivilizationDomain="ModernAgeCivilizations" CivilizationType="CIVILIZATION_GREAT_BRITAIN" LeaderDomain="StandardLeaders" LeaderType="LEADER_CROMWELL" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_CROMWELL_BRITAIN_TOOLTIP" ChoiceType="LOC_CREATE_GAME_HISTORICAL_CHOICE" />
+	</LeaderCivilizationBias>
+	
+	<Mementos>
+		<Row Type="MEMENTO_CROMWELL_MACE" Name="LOC_MEMENTO_CROMWELL_MACE_NAME" Description="LOC_MEMENTO_CROMWELL_MACE_DESCRIPTION" FunctionalDescription="LOC_MEMENTO_CROMWELL_MACE_FUNCTIONAL_DESCRIPTION" UnlockTitle="LOC_MEMENTO_CROMWELL_MACE_UNLOCK_TITLE"/>
+		<Row Type="MEMENTO_CROMWELL_LOBSTER_HELM" Name="LOC_MEMENTO_CROMWELL_LOBSTER_HELM_NAME" Description="LOC_MEMENTO_CROMWELL_LOBSTER_HELM_DESCRIPTION" FunctionalDescription="LOC_MEMENTO_CROMWELL_LOBSTER_HELM_FUNCTIONAL_DESCRIPTION" UnlockTitle="LOC_MEMENTO_CROMWELL_LOBSTER_HELM_UNLOCK_TITLE"/>
+		<Row Type="MEMENTO_CROMWELL_KILLING_NO_MURDER" Name="LOC_MEMENTO_CROMWELL_KILLING_NO_MURDER_NAME" Description="LOC_MEMENTO_CROMWELL_KILLING_NO_MURDER_DESCRIPTION" FunctionalDescription="LOC_MEMENTO_CROMWELL_KILLING_NO_MURDER_FUNCTIONAL_DESCRIPTION" LeaderSpecific="LEGEND_PATH_ASHOKA" UnlockTitle="LOC_MEMENTO_CROMWELL_KILLING_NO_MURDER_UNLOCK_TITLE"/>
+	</Mementos>
+
+
+</Database>

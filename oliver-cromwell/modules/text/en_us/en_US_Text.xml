@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+
+        <Row Tag="LOC_LEADER_CROMWELL_NAME">
+			<Text>Oliver Cromwell</Text>
+		</Row>
+        <Row Tag="LOC_LEADER_CROMWELL_DESCRIPTION">
+			<Text>-1 Happiness and Gold per Population in Cities founded by you. +100% Happiness maintenance for Specialists. +0.5 Culture and Production for every 1 excess Happiness in Cities founded by you.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_CROMWELL_ABILITY_NAME">
+			<Text>Humble Petition and Advice</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_CROMWELL_ABILITY_DESCRIPTION">
+			<Text>[LIST][LI][B]-1 [icon:YIELD_HAPPINESS] Happiness[/B] and [B][icon:YIELD_GOLD] Gold[/B] per Population in Cities founded by you.[LI][B]+100% [icon:YIELD_HAPPINESS] Happiness[/B] maintenance for [B]Specialists[/B].[LI][B]+0.5 [icon:YIELD_CULTURE] Culture[/B] and [B][icon:YIELD_PRODUCTION] Production[/B] for every [B]1[/B] excess [icon:YIELD_HAPPINESS] [B]Happiness[/B] in [B]Cities[/B] founded by you.[/LIST]</Text>
+		</Row>
+		<Row Tag="LOC_DIPLOMACY_AGENDA_JERICHO_NAME">
+			<Text>Jericho</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_CROMWELL_NORMAN_TOOLTIP">
+			<Text>[B]Oliver Cromwell[/B] overthrew the [B]Anglo-Norman[/B] Monarchy.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_CROMWELL_DESCRIPTION">
+			<Text>Play as [B]Oliver Cromwell[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_CROMWELL_BRITAIN_TOOLTIP">
+			<Text>[B]Oliver Cromwell[/B] overthrew the [B]British[/B] Monarchy.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_CROMWELL_MEXICO_TOOLTIP">
+			<Text>[B]Mexico[/B] was a [B]Revolutionary Republic[/B], like the state [B]Cromwell[/B] led.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_CROMWELL_FRANCE_TOOLTIP">
+			<Text>[B]France[/B] was a [B]Revolutionary Republic[/B], like the state [B]Cromwell[/B] led.</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_CROMWELL_ROME_TOOLTIP">
+			<Text>[B]Rome[/B] was often led by [B]Military Dictators[/B], like [B]Cromwell[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_CROMWELL_GREECE_TOOLTIP">
+			<Text>[B]Oliver Cromwell[/B] created a [B]Republic[/B], a form of government common in [B]Greece[/B].</Text>
+		</Row>
+		<InsertOrIgnore Tag="LOC_CIVILIZATION_MATTS_IRELAND_NAME">
+			<Text>Ireland</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_CIVILIZATION_MATTS_SCOTLAND_NAME">
+			<Text>Scotland</Text>
+		</InsertOrIgnore>
+    </EnglishText>
+</Database>

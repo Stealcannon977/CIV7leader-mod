@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+    <Modifier id="CROMWELL_10008B_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_GRANT_UNIT" run-once="false" permanent="true">
+        <Argument name="UnitType">UNIT_ARQUEBUSIER</Argument>
+        <Argument name="Amount">3</Argument>
+    </Modifier>
+    <Modifier id="CROMWELL_10008B_NARRATIVE_MODIFIER2" collection="COLLECTION_OPPONENT_AT_STORY" effect="EFFECT_DECLARE_WAR" run-once="true" permanent="true">
+    </Modifier>
+    <Modifier id="CROMWELL_10008C_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_GRANT_UNIT" run-once="false" permanent="true">
+        <Argument name="UnitType">UNIT_PARTISAN</Argument>
+        <Argument name="Amount">3</Argument>
+    </Modifier>
+    <Modifier id="CROMWELL_10008C_NARRATIVE_MODIFIER2" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_HAPPINESS</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">-1</Argument>
+        <Argument name="Tag">HAPPINESS</Argument>
+    </Modifier>
+    <Modifier id="CROMWELL_10009B_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_HAPPINESS</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+        <Argument name="ConstructibleType">BUILDING_OPERA_HOUSE</Argument>
+    </Modifier>
+    <Modifier id="CROMWELL_10009C_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_CULTURE</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+        <Argument name="ConstructibleType">BUILDING_OPERA_HOUSE</Argument>
+    </Modifier>
+    <Modifier id="CROMWELL_10010B_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_HAPPINESS</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">-1</Argument>
+        <Argument name="Tag">FOOD</Argument>
+    </Modifier>
+    <Modifier id="CROMWELL_10010C_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_HAPPINESS</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">-1</Argument>
+        <Argument name="Tag">MILITARY</Argument>
+    </Modifier>
+    <Modifier id="CROMWELL_10011B_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_GOLD</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+        <Argument name="Tag">CULTURE</Argument>
+    </Modifier>
+    <Modifier id="CROMWELL_10011B_NARRATIVE_MODIFIER2" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_HAPPINESS</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">-1</Argument>
+        <Argument name="Tag">CULTURE</Argument>
+    </Modifier>
+    <Modifier id="CROMWELL_10011C_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_HAPPINESS</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+        <Argument name="Tag">CULTURE</Argument>
+    </Modifier>
+    <Modifier id="CROMWELL_10011C_NARRATIVE_MODIFIER2" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_GOLD</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">-1</Argument>
+        <Argument name="Tag">CULTURE</Argument>
+    </Modifier>
+    <Modifier id="CROMWELL_10012B_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_HAPPINESS</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">-1</Argument>
+        <Argument name="ConstructibleType">IMPROVEMENT_FARM</Argument>
+    </Modifier>
+    <Modifier id="CROMWELL_10012C_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_GOLD</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">-1</Argument>
+        <Argument name="ConstructibleType">IMPROVEMENT_FARM</Argument>
+    </Modifier>
+    <Modifier id="CROMWELL_10013B_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_SCIENCE</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">2</Argument>
+        <Argument name="ConstructibleType">WONDER_OXFORD_UNIVERSITY</Argument>
+    </Modifier>
+    <Modifier id="CROMWELL_10013C_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD" run-once="false" permanent="true">
+        <Argument name="YieldType">YIELD_CULTURE</Argument>
+        <Argument name="Amount" type="ScaleByGameAge" extra="100">2</Argument>
+        <Argument name="ConstructibleType">WONDER_OXFORD_UNIVERSITY</Argument>
+    </Modifier>
+    <Modifier id="CROMWELL_10014B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_GRANT_GREAT_WORK" run-once="false" permanent="true">
+        <Argument name="ObjectType">GREATWORKOBJECT_ARTIFACT</Argument>
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+    <Modifier id="CROMWELL_10014C_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_GRANT_GOLDEN_AGE" run-once="true" permanent="true">
+    </Modifier>
+    <Modifier id="CROMWELL_LEADER_CHAIN_1218B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ATTRIBUTE" run-once="false" permanent="true">
+        <Argument name="AttributeType">ATTRIBUTE_MILITARISTIC</Argument>
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+    <Modifier id="CROMWELL_LEADER_CHAIN_1218C_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_YIELD" run-once="false" permanent="true">
+                <Argument name="YieldType">YIELD_CULTURE</Argument>
+                <Argument name="Amount">1</Argument>
+                <String context="Description">LOC_TRADITION_SUFFRAGE_DESCRIPTION</String>
+    </Modifier>
+    <Modifier id="CROMWELL_LEADER_CHAIN_1218C_NARRATIVE_MODIFIER2" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD" run-once="false" permanent="true">
+                <SubjectRequirements>
+                        <Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+                </SubjectRequirements>
+                <Argument name="YieldType">YIELD_PRODUCTION</Argument>
+                <Argument name="Amount">-1</Argument>
+                <Argument name="PercentMultiplier">false</Argument>
+    </Modifier>
+    <Modifier id="CROMWELL_LEADER_CHAIN_1218D_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_YIELD" run-once="false" permanent="true">
+                <Argument name="YieldType">YIELD_FOOD</Argument>
+                <Argument name="Amount">2</Argument>
+                <String context="Description">LOC_TRADITION_PROLETARIAT_DESCRIPTION</String>
+    </Modifier>
+    <Modifier id="CROMWELL_LEADER_CHAIN_1218D_NARRATIVE_MODIFIER2" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD" run-once="false" permanent="true">
+                <SubjectRequirements>
+                        <Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+                </SubjectRequirements>
+                <Argument name="YieldType">YIELD_HAPPINESS</Argument>
+                <Argument name="Amount">-1</Argument>
+                <Argument name="PercentMultiplier">false</Argument>
+    </Modifier>
+    <Modifier id="CROMWELL_LEADER_CHAIN_1219B_NARRATIVE_MODIFIER" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ATTRIBUTE" run-once="false" permanent="true">
+        <Argument name="AttributeType">ATTRIBUTE_CULTURAL</Argument>
+        <Argument name="Amount">1</Argument>
+    </Modifier>
+    <Modifier id="CROMWELL_LEADER_CHAIN_1219C_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_YIELD" run-once="false" permanent="true">
+                <Argument name="YieldType">YIELD_CULTURE</Argument>
+                <Argument name="Amount">1</Argument>
+                <String context="Description">LOC_TRADITION_SUFFRAGE_DESCRIPTION</String>
+    </Modifier>
+    <Modifier id="CROMWELL_LEADER_CHAIN_1219C_NARRATIVE_MODIFIER2" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD" run-once="false" permanent="true">
+                <SubjectRequirements>
+                        <Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+                </SubjectRequirements>
+                <Argument name="YieldType">YIELD_PRODUCTION</Argument>
+                <Argument name="Amount">-1</Argument>
+                <Argument name="PercentMultiplier">false</Argument>
+    </Modifier>
+    <Modifier id="CROMWELL_LEADER_CHAIN_1219D_NARRATIVE_MODIFIER" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_WORKER_YIELD" run-once="false" permanent="true">
+                <Argument name="YieldType">YIELD_FOOD</Argument>
+                <Argument name="Amount">2</Argument>
+                <String context="Description">LOC_TRADITION_PROLETARIAT_DESCRIPTION</String>
+        </Modifier>
+    <Modifier id="CROMWELL_LEADER_CHAIN_1219D_NARRATIVE_MODIFIER2" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD" run-once="false" permanent="true">
+                <SubjectRequirements>
+                        <Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+                </SubjectRequirements>
+                <Argument name="YieldType">YIELD_HAPPINESS</Argument>
+                <Argument name="Amount">-1</Argument>
+                <Argument name="PercentMultiplier">false</Argument>
+        </Modifier>
+    <RequirementSet id="REQSET_CROMWELL_LEADER_CHAIN_1218C_NARRATIVE_REQUISITE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS" inverse="true">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_LEADER_CHAIN_A</Argument>
+            <Argument name="Amount">4</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_LEADER_CHAIN_1218D_NARRATIVE_REQUISITE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS" inverse="true">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_LEADER_CHAIN_A</Argument>
+            <Argument name="Amount">4</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_LEADER_CHAIN_1219C_NARRATIVE_REQUISITE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS" inverse="true">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_LEADER_CHAIN_B</Argument>
+            <Argument name="Amount">4</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_LEADER_CHAIN_1219D_NARRATIVE_REQUISITE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS" inverse="true">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_LEADER_CHAIN_B</Argument>
+            <Argument name="Amount">4</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_10008E_NARRATIVE_REQUISITE">
+        <Requirement xref="REQ_STORY_LEADER_CROMWELL"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_10009A_NARRATIVE_REQUISITE">
+        <Requirement xref="REQ_STORY_LEADER_CROMWELL"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_10010A_NARRATIVE_REQUISITE">
+        <Requirement xref="REQ_STORY_LEADER_CROMWELL"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_10011A_NARRATIVE_REQUISITE">
+        <Requirement xref="REQ_STORY_LEADER_CROMWELL"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_10012A_NARRATIVE_REQUISITE">
+        <Requirement xref="REQ_STORY_LEADER_CROMWELL"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_10013A_NARRATIVE_REQUISITE">
+        <Requirement xref="REQ_STORY_LEADER_CROMWELL"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_10014A_NARRATIVE_REQUISITE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_GREAT_BRITAIN_CROMWELL"/>
+        <Requirement xref="REQ_STORY_LEADER_CROMWELL"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_LEADER_CHAIN_1218A_NARRATIVE_REQUISITE">
+        <Requirement xref="REQ_STORY_LEADER_CROMWELL_ONLY"/>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_LEADER_CHAIN_1219A_NARRATIVE_REQUISITE">
+        <Requirement xref="REQ_STORY_LEADER_CROMWELL_ONLY"/>
+    </RequirementSet>
+    <Requirement id="REQ_STORY_CIVILIZATION_GREAT_BRITAIN_CROMWELL" type="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES">
+        <Argument name="CivilizationType">CIVILIZATION_GREAT_BRITAIN</Argument>
+    </Requirement>
+    <!-- <RequirementSet id="REQSET_CROMWELL_10008E_NARRATIVE"> -->
+        <!-- <Requirement xref="REQ_STORY_LEADER_CROMWELL"/> -->
+        <!-- <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS"> -->
+            <!-- <Argument name="GossipTypes">GOSSIP_RELATIONSHIP_CHANGED01</Argument> -->
+            <!-- <Argument name="GOSSIP_RELATIONSHIP_CHANGED01">Hash,RelationshipLevel,PLAYER_RELATIONSHIP_HOSTILE,Hash,AtWar,False</Argument> -->
+        <!-- </Requirement> -->
+    <!-- </RequirementSet> -->
+    <!-- <RequirementSet id="REQSET_CROMWELL_10008A_NARRATIVE"> -->
+        <!-- <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS"> -->
+            <!-- <Argument name="GossipTypes">GOSSIP_RELATIONSHIP_CHANGED01</Argument> -->
+            <!-- <Argument name="GOSSIP_RELATIONSHIP_CHANGED01">Hash,RelationshipLevel,PLAYER_RELATIONSHIP_HOSTILE,Hash,AtWar,False</Argument> -->
+        <!-- </Requirement> -->
+        <!-- <Requirement type="REQUIREMENT_GAME_TURN_IS_X_NARRATIVE"> -->
+            <!-- <Argument name="AfterTurn">1</Argument> -->
+        <!-- </Requirement> -->
+    <!-- </RequirementSet> -->
+    <RequirementSet id="REQSET_CROMWELL_10008E_NARRATIVE">
+        <Requirement xref="REQ_STORY_LEADER_CROMWELL"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_ARTIFACT_EXTRACTED01</Argument>
+            <Argument name="GOSSIP_ARTIFACT_EXTRACTED01">Hash,RelationshipLevel,PLAYER_RELATIONSHIP_HOSTILE,Hash,AtWar,False</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_10008A_NARRATIVE">
+        <Requirement xref="REQ_STORY_LEADER_CROMWELL"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_ARTIFACT_EXTRACTED01</Argument>
+            <Argument name="GOSSIP_ARTIFACT_EXTRACTED01">Hash,RelationshipLevel,PLAYER_RELATIONSHIP_HOSTILE,Hash,AtWar,False</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_GAME_TURN_IS_X_NARRATIVE">
+            <Argument name="AfterTurn">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_10009A_NARRATIVE">
+        <Requirement xref="REQ_STORY_LEADER_CROMWELL"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE">
+            <Argument name="ProgressionTreeNodeType">NODE_TECH_MO_URBANIZATION</Argument>
+            <Argument name="MinDepth">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_10010A_NARRATIVE">
+        <Requirement xref="REQ_STORY_LEADER_CROMWELL"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01,GOSSIP_CONSTRUCT_BUILDING02</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_TENEMENT</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING02">Hash,ConstructibleType,BUILDING_SCHOOLHOUSE</Argument>
+            <Argument name="Distance">1</Argument>
+            <Argument name="Amount">2</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_10011A_NARRATIVE">
+        <Requirement xref="REQ_STORY_LEADER_CROMWELL"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,BUILDING_OPERA_HOUSE</Argument>
+            <Argument name="Amount">3</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_10012A_NARRATIVE">
+        <Requirement xref="REQ_STORY_LEADER_CROMWELL"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_GOSSIPS">
+            <Argument name="GossipTypes">GOSSIP_CONSTRUCT_BUILDING01</Argument>
+            <Argument name="GOSSIP_CONSTRUCT_BUILDING01">Hash,ConstructibleType,IMPROVEMENT_FARM</Argument>
+            <Argument name="Amount">15</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_10013A_NARRATIVE">
+        <Requirement xref="REQ_STORY_LEADER_CROMWELL"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_BUILDINGS">
+            <Argument name="BuildingType">WONDER_OXFORD_UNIVERSITY</Argument>
+            <Argument name="Amount">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_10014A_NARRATIVE">
+        <Requirement xref="REQ_STORY_CIVILIZATION_GREAT_BRITAIN_CROMWELL"/>
+        <Requirement xref="REQ_STORY_LEADER_CROMWELL"/>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE">
+            <Argument name="ProgressionTreeNodeType">NODE_CIVIC_MO_GREAT_BRITAIN_SOCIETY_OF_ANTIQUARIES</Argument>
+            <Argument name="MinDepth">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_LEADER_CHAIN_1218A_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_LEADER_CHAIN_A</Argument>
+            <Argument name="Amount">3</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE">
+            <Argument name="ProgressionTreeNodeType">NODE_TECH_MO_MILITARY_SCIENCE</Argument>
+            <Argument name="MinDepth">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_LEADER_CHAIN_1218B_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE">
+            <Argument name="ProgressionTreeNodeType">NODE_CIVIC_MO_BRANCH_AUTHORITARIANISM</Argument>
+            <Argument name="MinDepth">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_LEADER_CHAIN_1219A_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_AT_LEAST_NUM_NARRATIVE_TAGS">
+            <Argument name="NarrativeTagType">NARRATIVE_TAG_LEADER_CHAIN_B</Argument>
+            <Argument name="Amount">3</Argument>
+        </Requirement>
+        <Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE">
+            <Argument name="ProgressionTreeNodeType">NODE_CIVIC_MO_MAIN_MODERNIZATION</Argument>
+            <Argument name="MinDepth">1</Argument>
+        </Requirement>
+    </RequirementSet>
+    <RequirementSet id="REQSET_CROMWELL_LEADER_CHAIN_1219B_NARRATIVE">
+        <Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE">
+            <Argument name="ProgressionTreeNodeType">NODE_CIVIC_MO_BRANCH_AUTHORITARIANISM</Argument>
+            <Argument name="MinDepth">1</Argument>
+        </Requirement>
+    </RequirementSet>
+</GameEffects>
